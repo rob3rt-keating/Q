@@ -1,0 +1,236 @@
+{% extends 'base.html' %}
+
+{% block title %}{% endblock %}
+{% block head %}
+
+    {% block style %}
+        <style>
+        .red {
+            color: red;
+        }
+        .green {
+            color: green;
+        }
+
+        </style>
+
+    {% endblock %}
+
+
+{% endblock %}
+
+{% block content %}
+
+
+<div class="col-md-6">
+
+</div>
+
+
+{% if data %}
+
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-2 text-center" style="display:inline-block; min-width: 0;" align="center">
+
+            {% if stats_tot %}
+
+            <div class="card" style="width: 10rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Question {{data.id }}</h5>
+                    <p class="card-text">Seen: {{ stats_tot }}
+                        Pass: {{ stats_pass }}</p>
+                </div>
+            </div>
+
+            {% elif status %}
+
+            <div class="card" style="width: 10rem;">
+                <div class="card-body">
+                    {% if status == 'correct' %}
+                    {% set colar = 'green' %}
+                    {% else %}
+                    {% set colar = 'red' %}
+                    {% endif %}
+
+                    <h5 class="card-title {{colar}}">{{status  | capitalize }} {{data.id }}</h5>
+                </div>
+            </div>
+
+            {% endif %}
+        </div>
+
+        <div class="col-7" style="min-width: 0;">
+            <form action="/quiz/grade_it" method="post" style="display:inline-block;">
+                <p style="white-space: pre-line">
+                    {{ data.q }}
+                </p>
+
+                {% if data.q_type == 'basic' %}
+
+<!--            BASIC / RADIO-->
+                <div class="form-check">
+                    {% for itm in data.options %}
+                    <div>
+                        <label class="form-check-label mb-3">
+                            <input type="radio" class="form-check-input" name="rdo" value="{{ itm }}">{{ itm }}
+                            <input type="text" name="idx" id="idx" hidden value="{{ data.id }}"></label>
+                    </div>
+                    {% endfor %}
+                </div>
+
+                {% elif data.q_type == 'multi' %}
+
+<!--        MULTI / CHECKBOX-->
+                <div class="form-check">
+                    {% for itm in data.options %}
+
+                    <div>
+                        <label class="form-check-label mb-3">
+                            <input type="checkbox" class="form-check-input me-1 mb-4" name="chk" id="chk" value="{{ itm }}">{{ itm }}
+                            <input type="text" name="idx" id="idx" hidden value="{{ data.id }}">
+                        </label>
+                    </div>
+
+                    {% endfor %}
+                </div>
+
+                {% elif data.q_type == 'match' %}
+
+<!--        MATCH / SELECTS-->
+
+                    {% for key in data.options.keys() %}
+
+                        <div class="input-group">
+
+                            <div class="col-auto">
+                                <label for="{{ key }}" class="form-label fw-bold me-3" >{{ key }}</label>
+                                <input type="text" name="idx" id="idx" hidden value="{{ data.id }}"></label>
+                            </div>
+                            <div class="col-auto mb-4">
+                                <select class="form-select mr-3" name="{{key}}" aria-label="{{ key }}" >
+                                {% for val in data.options.values() | sort %}
+                                    <option value="{{ val }}" name="{{key}}" >{{ val }}</option>
+                                {% endfor %}
+                                </select>
+                            </div>
+                        </div>
+                    {% endfor %}
+
+                {% endif %}
+<!--        Buttons-->
+<!--            ANSWER-->
+                <input type="text" name="ans" id="ans" hidden value="{{ correct }}">
+                <input type="text" name="q_type" id="q_type" hidden value="{{ data.q_type }}">
+                <input type="text" name="viewed" id="viewed" hidden value="{{ viewed }}">
+
+                <div class="d-sm-inline-block mt-3">
+                    <button class="btn btn-outline-info btn-sm" name="submit_view" id="idx" value="{{ data.id }}" type="submit">View Answer</button>
+                </div>
+
+                <div class="d-sm-inline-block">
+                    <button class="btn btn-primary btn-sm" name="submit_nxt" id="idx_nxt" value="{{ data.id }}" type="submit">Next</button>
+                </div>
+            </form>
+        </div>
+
+<div class="col-3" style="min-width: 0;">
+<!--        RESULTS - NOTES - EXPLAINS-->
+        {% if explain %}
+
+        <div class="card" style="width: 25rem;">
+            {% if explain %}
+
+            <h5 class="card-title">Explanation</h5>
+            <div class="card-body" style="white-space: pre-line;" align="left">
+                {{ explain }}
+            {% endif %}
+            </div>
+
+<!--      EXPLAIN_URL-->
+            {% if explain_url %}
+
+            <h5 class="card-title">Links</h5>
+            <p class="card-text"></p>
+            <a href="{{ explain_url }}" target="_blank" class="btn btn-primary">{{ explain_url }}</a>
+
+            {% endif %}
+
+<!--        NOTES-->
+
+            <h5 class="card-title mt-3">Notes</h5>
+            <p class="card-text" ></p>
+            {% if notes != none %}
+
+            {% for msg in notes %}
+
+            <p style="white-space: pre-wrap;"> {{ msg }}</p>
+
+        {#    <ul>
+                <li>{{ msg }}</li>
+            </ul>
+        #}
+            {% endfor %}
+            {% endif %}
+
+            <form action="/add_note" method="post" id="add_msg">
+                <div class="form-group">
+                    <label for="msg">Comment:</label>
+                    <textarea class="form-control" rows="5" id="msg" name="msg" style="white-space: pre-wrap;"></textarea>
+                </div>
+                <div class="mt-3 text-end">
+                    <input type="text" name="idx" id="idx" hidden value="{{ data.id }}">
+                    <button name="submit" value="{{ data.id }}">Add Note</button>
+                </div>
+            </form>
+        </div>
+
+      {% endif %}
+
+  {#    <div class="col"></div> #}
+
+</div>
+
+</div>
+</div>
+
+{% else %}
+{% endif %}
+
+{% endblock %}
+
+{% block scripts %}
+
+<script>
+    $(document).ready(function () {
+        var data = JSON.parse($('#ans').val());
+        var q_type = $('#q_type').val();
+
+        // Select
+        if (q_type == "match") {
+
+            for ( let x in data ) {
+                $('option[name="' + x + '"][value="' +  data[x] + '"]').prop("selected", true);
+                };
+
+            //$('option[name="' + data.os + '"][value="' +  data[0] + '"]').prop("selected", true);
+            //$('option[name="Azure Virtual Machines"][value="IaaS"]').prop("selected", true);
+        };
+
+        if (q_type == "basic") {
+            //alert(q_type);
+            $('input[type="radio"][name="rdo"][value="' +  data[0] + '"]').prop('checked', true);
+        };
+
+        if (q_type == "multi") {
+
+            for ( var i = 0, l = data.length; i < l; i++ ) {
+                $('input[type="checkbox"][value="' +  data[i] + '"]').prop('checked', true);
+            };
+        };
+
+    });
+</script>
+
+{% endblock %}

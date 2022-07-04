@@ -1,0 +1,113 @@
+{% extends 'base.html' %}
+
+{% block title %}{% endblock %}
+{% block head %}
+
+{% block style %}
+<style>
+    .red {
+        color: red;
+    }
+    .green {
+        color: green;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .myDIV:hover + .hide {
+      display: block;
+      color: red;
+}
+        </style>
+{% endblock %}
+
+
+{% endblock %}
+
+{% block content %}
+
+<div class="col-md-6">
+    <h3>
+<!--        Q: Practice Quiz configuration-->
+    </h3>
+</div>
+
+
+<div class="container mt-3 ">
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4">
+            <div class="card" style="width: 20rem;">
+                <img src="{{ url_for('static', path='/images/az-900.png') }}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title display-6" align="center">Practice Results</h5>
+                    <p class="card-text" align="center">
+                    {% set score = (final.correct / final.tot) | round(2) * 100 %}
+                    {% if score >= 70 %}
+                        <h1 align="center" class="green">{{ score }}</h1>
+                    {% else %}
+                        <h1 align="center" class="red">{{ score }}</h1>
+                    {% endif %}
+
+                    </p>
+                    <div class="mt-0"><em><small>** You answered {{ final.tot }} questions </small></em></div>
+                </div>
+                <ul class="list-group ">
+                    <li class="list-group-item">
+                        <div class="row" align="center">
+                            <div class="col">
+                                <i class="fa fa-check fa-3x green"></i><h3>{{final.correct}}</h3>
+                            </div>
+                            <div class="col">
+                                <i class="fa fa-times fa-3x red"></i><h3>{{final.failed}}</h3>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="card-body">
+                    <table class="table table-striped">
+                        <thead>
+                        <tr>
+                            <th scope="col">Category</th>
+                            <th scope="col"><i class="fa fa-thumbs-o-up green fa-lg"></i></th>
+                            <th scope="col"><i class="fa fa-thumbs-o-down red fa-lg"></i></th>
+                        </tr>
+                        </thead>
+
+                        <tbody>
+                        {% for itm in final.statistics %}
+                        <tr>
+                            <th scope="row">{{ itm | capitalize }}</th>
+                            <td>
+                                <div class="myDIV">{{ final.statistics[itm].correct }}</div>
+                                <div class="hide">{{ final.statistics[itm].correct_q }}</div>
+                            </td>
+                            <td>
+                                <div class="myDIV">{{ final.statistics[itm].failed }}</div>
+                                <div class="hide">{{ final.statistics[itm].failed_q }}</div>
+                            </td>
+
+
+                    {#        <td>{{ final.statistics[itm].correct }}</td>
+                            <td>{{ final.statistics[itm].failed }}</td>
+                    #}
+                        </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock %}
+
+{% block scripts %}
+
+{% endblock %}

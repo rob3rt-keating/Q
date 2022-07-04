@@ -1,0 +1,83 @@
+{% extends 'base.html' %}
+
+{% block title %}{% endblock %}
+{% block head %}
+{% endblock %}
+
+{% block style %}
+<style>
+    .red {
+        color: red;
+    }
+    .green {
+        color: green;
+    }
+
+</style>
+{% endblock %}
+
+{% block content %}
+
+<div class="container mt-5 ">
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4">
+            <form method="post" action="/start_quiz">
+                <div class="card" style="width: 25rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Question Selection</h5>
+
+                        <div class="input-group">
+                            <label style="display:block">
+                                <input style="vertical-align:middle" type="checkbox" name="shuffle">
+                                <span  style="vertical-align:middle">Randomize</span>
+                            </label>
+                            <input type="text" class="form-control ms-5 border-0"  value="" name="limit" placeholder="LIMIT # of questions" />
+                        </div>
+
+                        <div class="container mt-3">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="concepts" name="concepts" value="concepts" >
+                                <label class="form-check-label">Cloud Concepts</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="services" name="services" value="services" >
+                                <label class="form-check-label">Azure Services</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="core" name="core" value="core" >
+                                <label class="form-check-label">Azure Core Solutions and Mgmt Tools</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="security" name="security" value="security" >
+                                <label class="form-check-label">Azure Network and General Security</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="cost" name="cost" value="cost" >
+                                <label class="form-check-label">Azure Cost Management and SLA</label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="unseen" name="unseen" value="none" >
+                                <label class="form-check-label">Unseen</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="test" name="test" value="none" >
+                                <label class="form-check-label">test</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md-3 text-end">
+                        <button class="btn btn-primary btn-sm" name="submit" id="go" value="go" >Start the quiz</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+
+{% endblock %}
