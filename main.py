@@ -16,6 +16,7 @@ from pydantic import validator
 from pydantic.dataclasses import dataclass
 from fastapi.templating import Jinja2Templates
 from fastapi.staticfiles import StaticFiles
+from database import make_db_from_json
 
 BASE_PATH = Path(__file__).resolve().parent
 
@@ -411,3 +412,12 @@ def gen_category_stats(data):
                                    'correct_q': passing_q, 'failed_q': failing_q}
 
     return cat_subtotals
+
+
+@app.get('/restore_db')
+def restore_db(request: Request):
+    """ This will restore db from questions.json"""
+
+    memo = make_db_from_json()
+
+    return TEMPLATES.TemplateResponse("start.html", {"request": request, 'memo': memo})
