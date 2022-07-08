@@ -12,7 +12,7 @@
         </a>
     </td>
     <td> <a href="https://www.venmo.com/tonya-keating">
-        <img src="https://raw.githubusercontent.com/rob3rt.keating/Q/master/static/venmo.png" height="80" width="160" alt="Donate with Venmo" />
+        <img src="https://raw.githubusercontent.com/rob3rt-keating/Q/master/static/images/venmo.png" height="60" width="60" alt="Donate with Venmo" />
         </a> </td>
 
 </table>
