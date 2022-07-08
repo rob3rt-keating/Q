@@ -7,16 +7,14 @@ import json
 import random
 import collections
 from pathlib import Path
-from fastapi import FastAPI, Request, Form
+from fastapi import FastAPI, Request, Form, Depends
 from fastapi.responses import RedirectResponse
 from typing import List
 import sqlite3
-from typing import Optional, Dict
-from pydantic import validator
-from pydantic.dataclasses import dataclass
+from helpers import Question, QuestionBM
 from fastapi.templating import Jinja2Templates
 from fastapi.staticfiles import StaticFiles
-from database import make_db_from_json
+from database import make_db_from_json, write_to_json_file
 
 BASE_PATH = Path(__file__).resolve().parent
 
@@ -67,26 +65,6 @@ class Bank:
         return self.scores
 
 
-@dataclass
-class Question:
-    id: int
-    q: str
-    options: Dict
-    explain: str
-    explain_url: str
-    notes: Optional[str]
-    history: Optional[str]
-    category: str
-    q_type: str
-    misc: Optional[str]
-    timestamp: Optional[str]
-
-    @validator("options", pre=True)
-    def ret_json(cls, v):
-        if isinstance(v, str):
-            return json.loads(v)
-
-
 bank = Bank()
 
 
@@ -112,6 +90,15 @@ async def home(request: Request, idx: str = Form(None)):
                        })
 
 
+@app.post("/id_get")
+async def get_id(request: Request, idx: str = Form(None)):
+    """ landing page"""
+
+    data = get_questions(idx)
+
+    return json.dumps(data)
+
+
 @app.get("/id/{idx}")
 async def home(request: Request, idx: str):
     """ landing page"""
@@ -125,6 +112,9 @@ async def home(request: Request, idx: str):
                        "explain_url": data[0].get('explain_url'),
                        'notes': data[0]['notes'].split('~') if data[0]['notes'] is not None else '',
                        })
+
+
+
 
 
 def get_stats(data):
@@ -335,6 +325,9 @@ async def start_quiz(request: Request, limit: str = Form(None), shuffle: bool = 
     if 'unseen' in cat_lst:
         cmd = f'Select * from tbl_questions where history is NULL'
 
+    if 'custom' in cat_lst:
+        cmd = f'Select * from tbl_questions where id > 1000'
+
     bank.get_db_ids(cmd, shuffle, limit)
 
     nxt = bank.get_next()
@@ -375,6 +368,7 @@ def gen_category_stats(data):
 
     # | Build category list of seen questions
     cmd = f'Select DISTINCT(category) from tbl_questions where id in {tuple(data.keys())}'
+    print(cmd)
     cursor = conn.execute(cmd)
     categories = [cat[0] for cat in cursor]
 
@@ -421,3 +415,70 @@ def restore_db(request: Request):
     memo = make_db_from_json()
 
     return TEMPLATES.TemplateResponse("start.html", {"request": request, 'memo': memo})
+
+
+@app.get('/backup')
+def restore_db(request: Request):
+    """ This will backup db into JSON file: questions.json
+    This includes all new questions you created"""
+
+    memo = write_to_json_file(json_file='questions.json')
+
+    return TEMPLATES.TemplateResponse("start.html", {"request": request, 'memo': memo})
+
+
+@app.get('/editor')
+def editor_home(request: Request):
+    """ Edit landing page"""
+
+    fields = ['idx',
+              'q_type',
+              'q',
+              'options1',
+              'options2',
+              'options3',
+              'options4',
+              'options5',
+              'explain',
+              'explain_url',
+              'notes',
+              'history',
+              'misc',
+              'category']
+
+    return TEMPLATES.TemplateResponse("editor.html", {"request": request, 'fields': fields})
+
+
+@app.post('/edit')
+async def edit(request: Request, form: QuestionBM = Depends(QuestionBM.as_form)):
+    """ Add new questions, edit questions"""
+
+    conn = sqlite3.connect(f'{BASE_PATH}/questions.db')
+
+    # cmd = 'Insert into tbl_questions (id, q, options, explain, explain_url, category, q_type) ' \
+    #       'VALUES (?, ?, ?, ?, ?, ?, ?)'
+
+    cmd = 'Insert or REPLACE into tbl_questions (q, options, explain, explain_url, category, q_type) ' \
+          'VALUES (?, ?, ?, ?, ?, ?)'
+
+    opts = {form.option1: True if form.chk1 == 'True' else None,
+            form.option2: True if form.chk2 == 'True' else None,
+            form.option3: True if form.chk3 == 'True' else None,
+            form.option4: True if form.chk4 == 'True' else None,
+            form.option5: True if form.chk5 == 'True' else None,
+            }
+
+    tup = (form.q, json.dumps(opts), form.explain, form.explain_url, form.category, form.q_type)
+
+    if form.idx:
+        tup = form.idx + tup
+        cmd = cmd.replace('(q', '(id, q)')
+        cmd = cmd.replace('?)', '?, ?)')
+
+    info = conn.execute(cmd, tup)
+
+    conn.commit()
+
+    ret_val = f'Added new item - {info.lastrowid}'
+
+    return TEMPLATES.TemplateResponse("editor.html", {"request": request, 'memo': ret_val})

@@ -1,6 +1,6 @@
 [
     {
-        "id": 1,
+        "id": 2001,
         "q": "Select TRUE statements",
         "options": {
             "A PaaS solution that hosts web apps in Azure provides FULL CONTROL of the OS that hosts applications": null,
@@ -14,11 +14,10 @@
         "category": "concepts",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:40",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:55"
     },
     {
-        "id": 2,
+        "id": 2002,
         "q": "Select TRUE statements",
         "options": {
             "Azure provides flexibility between CapEX and OpEx": true,
@@ -32,11 +31,10 @@
         "category": "concepts",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:40",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:55"
     },
     {
-        "id": 3,
+        "id": 2003,
         "q": "When you implement a SaaS solution, your are responsible for:",
         "options": {
             "Configuring High Availability": null,
@@ -51,11 +49,10 @@
         "category": "concepts",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:40",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:55"
     },
     {
-        "id": 4,
+        "id": 2004,
         "q": "You have an on-premises network that contains several servers.\nYou plan to migrate all the servers to Azure.\nYou need to recommend a solution to ensure that some of the servers are available if a single Azure data center goes offline for an extended period.\nWhat should you include in the recommendation?",
         "options": {
             "fault tolerance": true,
@@ -70,11 +67,10 @@
         "category": "concepts",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:40",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:55"
     },
     {
-        "id": 5,
+        "id": 2005,
         "q": "An organization that hosts its infrastructure __________ no longer requires a data center",
         "options": {
             "in a private cloud": null,
@@ -89,11 +85,10 @@
         "category": "concepts",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:40",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:55"
     },
     {
-        "id": 6,
+        "id": 2006,
         "q": "What are two characteristics of the public cloud? Each correct answer presents a complete solution.",
         "options": {
             " dedicated hardware": null,
@@ -109,11 +104,10 @@
         "category": "concepts",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:40",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:55"
     },
     {
-        "id": 7,
+        "id": 2007,
         "q": "Fill in the blank.  When planning to migrate a public website to Azure, you must plan to",
         "options": {
             "deploy a VPN": null,
@@ -128,11 +122,10 @@
         "category": "",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:40",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:55"
     },
     {
-        "id": 8,
+        "id": 2008,
         "q": "Your company plans to migrate all its data and resources to Azure.\nThe company's migration plan states that only Platform as a Service (PaaS) solutions must be used in Azure.\nYou need to deploy an Azure environment that meets the company migration plan.\nSolution: You create an Azure App Service and Azure SQL databases.\nDoes this meet the goal?",
         "options": {
             "Yes": true,
@@ -145,11 +138,10 @@
         "category": "concepts",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:40",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:55"
     },
     {
-        "id": 9,
+        "id": 2009,
         "q": "Your company plans to migrate all its data and resources to Azure.\nThe company's migration plan states that only Platform as a Service (PaaS) solutions must be used in Azure.\nYou need to deploy an Azure environment that meets the company migration plan.\nSolution: You create an Azure App Service and Azure virtual machines that have Microsoft SQL Server installed.\nDoes this meet the goal?",
         "options": {
             "Yes": null,
@@ -162,11 +154,10 @@
         "category": "concepts",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:40",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:55"
     },
     {
-        "id": 10,
+        "id": 2010,
         "q": "Your company plans to migrate all its data and resources to Azure.\nThe company's migration plan states that only Platform as a Service (PaaS) solutions must be used in Azure.\nYou need to deploy an Azure environment that meets the company migration plan.\nSolution: You create an Azure App Service and Azure Storage accounts.\nDoes this meet the goal?",
         "options": {
             "Yes": null,
@@ -179,11 +170,10 @@
         "category": "concepts",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:40",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:55"
     },
     {
-        "id": 11,
+        "id": 2011,
         "q": "Your company hosts an accounting application named App1 that is used by all the customers of the company.\nApp1 has low usage during the first three weeks of each month and very high usage during the last week of each month.\nWhich benefit of Azure Cloud Services supports cost management for this type of usage pattern?",
         "options": {
             "high availability": null,
@@ -198,11 +188,10 @@
         "category": "concepts",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:40",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:55"
     },
     {
-        "id": 12,
+        "id": 2012,
         "q": "You plan to migrate a web application to Azure. The web application is accessed by external users.\nYou need to recommend a cloud deployment solution to minimize the amount of administrative effort used to manage the web application.\nWhat should you include in the recommendation?",
         "options": {
             "Software as a Service (SaaS)": null,
@@ -217,11 +206,10 @@
         "category": "concepts",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:40",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:55"
     },
     {
-        "id": 13,
+        "id": 2013,
         "q": "(Fill in the blank.)   ______________",
         "options": {
             "Azure virtual machines": "Infrastructure as a service (IaaS)",
@@ -234,11 +222,10 @@
         "category": "concepts",
         "q_type": "match",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:40",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:55"
     },
     {
-        "id": 14,
+        "id": 2014,
         "q": "You have an on-premises network that contains 100 servers.\nYou need to recommend a solution that provides additional resources to your users. The solution must minimize capital and operational expenditure costs.\nWhat should you include in the recommendation?",
         "options": {
             "a complete migration to the public cloud": null,
@@ -253,11 +240,10 @@
         "category": "concepts",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:40",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:55"
     },
     {
-        "id": 15,
+        "id": 2015,
         "q": "Select checkbox if answer is correct",
         "options": {
             "To achieve a hybrid cloud model, a company must always migrate from a private cloud model": null,
@@ -271,11 +257,10 @@
         "category": "concepts",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:40",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:55"
     },
     {
-        "id": 16,
+        "id": 2016,
         "q": "You plan to migrate several servers from an on-premises network to Azure.\nWhat is an advantage of using a public cloud service for the servers over an on-premises network?",
         "options": {
             "The public cloud is owned by the public, NOT a private corporation": null,
@@ -290,11 +275,10 @@
         "category": "concepts",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:40",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:55"
     },
     {
-        "id": 17,
+        "id": 2017,
         "q": "Fill in the blank.  Azure Site Recovery provides ________ for virtual machines",
         "options": {
             "fault tolerance": true,
@@ -309,11 +293,10 @@
         "category": "concepts",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:40",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:55"
     },
     {
-        "id": 18,
+        "id": 2018,
         "q": "In which type of cloud model are all the hardware resources owned by a third-party and shared between multiple tenants?",
         "options": {
             "private": null,
@@ -328,11 +311,10 @@
         "category": "concepts",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:40",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:55"
     },
     {
-        "id": 19,
+        "id": 2019,
         "q": "Fill in the blank.  An Azure web app that queries an on-premises MS SQL server is an example of a  _______ cloud",
         "options": {
             "hybrid": true,
@@ -347,11 +329,10 @@
         "category": "concepts",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:40",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:55"
     },
     {
-        "id": 20,
+        "id": 2020,
         "q": "You have 1,000 virtual machines hosted on the Hyper-V hosts in a data center.\nYou plan to migrate all the virtual machines to an Azure pay-as-you-go subscription.\nYou need to identify which expenditure model to use for the planned Azure solution.\nWhich expenditure model should you identify?",
         "options": {
             "operational": true,
@@ -366,11 +347,10 @@
         "category": "concepts",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:40",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:55"
     },
     {
-        "id": 21,
+        "id": 2021,
         "q": "Match the best answer.",
         "options": {
             "Disaster recovery": "A cloud service that can be recovered after a failure occurs",
@@ -385,11 +365,10 @@
         "category": "concepts",
         "q_type": "match",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:40",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:55"
     },
     {
-        "id": 22,
+        "id": 2022,
         "q": "Select the true statements",
         "options": {
             "TO implement a hybrid model, a company must have an internal network": null,
@@ -403,11 +382,10 @@
         "category": "concepts",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:40",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:55"
     },
     {
-        "id": 23,
+        "id": 2023,
         "q": "Select only YES items.",
         "options": {
             "A PaaS solution provides full control of operating systems that host applications": null,
@@ -421,11 +399,10 @@
         "category": "concepts",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:40",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 24,
+        "id": 2024,
         "q": "Select all that are True.  Your company has an on-premises network that contains multiple servers.\nThe company plans to reduce the following administrative responsibilities of network administrators:\n\n\u2711 Backing up application data\n\u2711 Replacing failed server hardware\n\u2711 Managing physical server security\n\u2711 Updating server operating systems\n\u2711 Managing permissions to shared documents\n\nThe company plans to migrate several servers to Azure virtual machines.\nYou need to identify which administrative responsibilities will be eliminated after the planned migration.\n\nWhich two responsibilities should you identify?",
         "options": {
             "Replacing failed server hardware": true,
@@ -441,11 +418,10 @@
         "category": "concepts",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:40",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 25,
+        "id": 2025,
         "q": "Select all TRUE answers",
         "options": {
             "Azure Pay-as-you-Go pricing is an example of CapEX": null,
@@ -459,11 +435,10 @@
         "category": "concepts",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:40",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 26,
+        "id": 2026,
         "q": "You plan to provision Infrastructure as a Service (IaaS) resources in Azure.\nWhich resource is an example of IaaS?",
         "options": {
             "an Azure web app": null,
@@ -478,11 +453,10 @@
         "category": "concepts",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:40",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 27,
+        "id": 2027,
         "q": "To which cloud models can you deploy physical servers?",
         "options": {
             "private cloud and hybrid cloud only": null,
@@ -497,11 +471,10 @@
         "category": "concepts",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:40",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 28,
+        "id": 2028,
         "q": "Select the best definition",
         "options": {
             "Public Cloud": "No required capital expenditures",
@@ -515,11 +488,10 @@
         "category": "concepts",
         "q_type": "match",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:40",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 29,
+        "id": 2029,
         "q": "Select correct answers only",
         "options": {
             "A copany can extend a private cloud by adding its own physical servers to the public cloud": null,
@@ -533,11 +505,10 @@
         "category": "concepts",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 30,
+        "id": 2030,
         "q": "You have 50 virtual machines hosted on-premises and 50 virtual machines hosted in Azure. The on-premises virtual machines and the Azure virtual machines connect to each other.\nWhich type of cloud model is this?",
         "options": {
             "hybrid": true,
@@ -552,11 +523,10 @@
         "category": "concepts",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 31,
+        "id": 2031,
         "q": "Select TRUE statements",
         "options": {
             "A PaaS solution that hosts web apps in Azure provides FULL CONTROL of the OS that hosts applications": null,
@@ -570,11 +540,10 @@
         "category": "concepts",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 32,
+        "id": 2032,
         "q": "Your company plans to migrate all its data and resources to Azure.\nThe companys migration plan states that only Platform as a Service (PaaS) solutions must be used in Azure.\nYou need to deploy an Azure environment that meets the company migration plan.\nSolution: You create Azure virtual machines, Azure SQL databases, and Azure Storage accounts.\nDoes this meet the goal?",
         "options": {
             "Yes": null,
@@ -587,11 +556,10 @@
         "category": "concepts",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 33,
+        "id": 2033,
         "q": "Your company plans to deploy several custom applications to Azure. The applications will provide invoicing services to the customers of the company. Each application will have several prerequisite applications and services installed.\nYou need to recommend a cloud deployment solution for all the applications.\nWhat should you recommend?",
         "options": {
             "Software as a Service (SaaS)": null,
@@ -605,11 +573,10 @@
         "category": "concepts",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 34,
+        "id": 2034,
         "q": "Select only True statements",
         "options": {
             "Building a datacenter infrastructure is an example of OpEx": null,
@@ -623,11 +590,10 @@
         "category": "concepts",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 35,
+        "id": 2035,
         "q": "Azure Cosmos DB is an example of a _______ offering",
         "options": {
             "PaaS": true,
@@ -642,11 +608,10 @@
         "category": "concepts",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 36,
+        "id": 2036,
         "q": "Select only True statements",
         "options": {
             "With software as a service (SaaS), you must apply software updates": null,
@@ -660,11 +625,10 @@
         "category": "concepts",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 37,
+        "id": 2037,
         "q": "Select only True statements.",
         "options": {
             "You can create a resource group inside of an other resource group": null,
@@ -678,11 +642,10 @@
         "category": "concepts",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 38,
+        "id": 2038,
         "q": "Select only True statements",
         "options": {
             "MS SQL Server 2019 installed on an Azure VM is an example of a PaaS": null,
@@ -696,11 +659,10 @@
         "category": "concepts",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 39,
+        "id": 2039,
         "q": "Fill in the blank. A MS SQL Server database that is hosted in the cloud and has software updates managed by Azure is an example of ____________",
         "options": {
             "DRaaS": null,
@@ -715,11 +677,10 @@
         "category": "concepts",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 40,
+        "id": 2040,
         "q": "Your company plans to migrate all its data and resources to Azure.\nThe companys migration plan states that only Platform as a Service (PaaS) solutions must be used in Azure.\nYou need to deploy an Azure environment that meets the companys migration plan.\nWhat should you create?",
         "options": {
             "Azure virtual machines, Azure SQL databases, and Azure Storage accounts.": null,
@@ -734,11 +695,10 @@
         "category": "concepts",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 41,
+        "id": 2041,
         "q": "Fill in the blank.  You plan to deploy 20 VMs to an Azure environment. To ensure that the VM named VM1 cannot connect to other VMs, VM1 must _________",
         "options": {
             "be deployed to a separate virtual network": true,
@@ -753,11 +713,10 @@
         "category": "concepts",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 42,
+        "id": 2042,
         "q": "Fill in the blank.  When you need to delegate permissions to several Azure virtual machines simultaneously, you must deploy the Azure VMs _________",
         "options": {
             "to the same Azure region": null,
@@ -772,11 +731,10 @@
         "category": "concepts",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 43,
+        "id": 2043,
         "q": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.\nYou plan to deploy several Azure virtual machines.\nYou need to ensure that the services running on the virtual machines are available if a single data center fails.\n\nSolution: You deploy the virtual machines to two or more availability zones.\nDoes this meet the goal?",
         "options": {
             "Yes": true,
@@ -789,11 +747,10 @@
         "category": "concepts",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 44,
+        "id": 2044,
         "q": "One of the benefits of Azure SQL Data Warehouse is that high availability is built into the platform.\nInstructions: Review the underlined text. If it makes the statement correct, select \u05d2\u20acNo change is needed. If the statement is incorrect, select the answer choice that makes the statement correct.",
         "options": {
             "No change is needed": true,
@@ -808,11 +765,10 @@
         "category": "concepts",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 45,
+        "id": 2045,
         "q": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.\n\nYou plan to deploy several Azure virtual machines.\n\nYou need to ensure that the services running on the virtual machines are available if a single data center fails.\nSolution: You deploy the virtual machines to two or more regions.\n\nDoes this meet the goal?",
         "options": {
             "Yes": true,
@@ -825,11 +781,10 @@
         "category": "concepts",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 46,
+        "id": 2046,
         "q": "Select only True statements",
         "options": {
             "Azure resources can only access other resources in the same resource group": null,
@@ -843,11 +798,10 @@
         "category": "concepts",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 47,
+        "id": 2047,
         "q": "You plan to store 20 TB of data in Azure. The data will be accessed infrequently and visualized by using Microsoft Power BI.\nYou need to recommend a storage solution for the data.\nWhich two solutions should you recommend? Each correct answer presents a complete solution.",
         "options": {
             "Azure Data Lake": null,
@@ -863,11 +817,10 @@
         "category": "concepts",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 48,
+        "id": 2048,
         "q": "You have an Azure environment that contains 10 web apps. To which URL should you connect to manage all the Azure resources? https://_______._______.com",
         "options": {
             "admin.": null,
@@ -884,11 +837,10 @@
         "category": "",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 49,
+        "id": 2049,
         "q": "You plan to extend your companys network to Azure. The network contains a VPN appliance that uses an IP address of 131.107.200.1.\n\nYou need to create an Azure resource that defines the VPN appliance in Azure.\n\nWhich Azure resource should you create? To answer, select the appropriate resource in the answer area.",
         "options": {
             "Virtual network": null,
@@ -907,11 +859,10 @@
         "category": "core",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 50,
+        "id": 2050,
         "q": "Resource groups provide organizations with the ability to manage the compliance of Azure resources across multiple subscriptions.\nInstructions: Review the underlined text. If it makes the statement correct, select \u05d2\u20acNo change is needed\u05d2\u20ac. If the statement is incorrect, select the answer choice that makes the statement correct.",
         "options": {
             "admin.": null,
@@ -928,11 +879,10 @@
         "category": "core",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 51,
+        "id": 2051,
         "q": "You plan to deploy several Azure virtual machines.\nYou need to ensure that the services running on the virtual machines are available if a single data center fails.\nSolution: You deploy the virtual machines to two or more resource groups.\nDoes this meet the goal?",
         "options": {
             "Yes": null,
@@ -945,11 +895,10 @@
         "category": "core",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 52,
+        "id": 2052,
         "q": "You plan to deploy several Azure virtual machines.\nYou need to ensure that the services running on the virtual machines are available if a single data center fails.\nSolution: You deploy the virtual machines to a scale set.\nDoes this meet the goal?",
         "options": {
             "Yes": null,
@@ -962,11 +911,10 @@
         "category": "core",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 53,
+        "id": 2053,
         "q": "Select all True statements",
         "options": {
             "An Azure subscription can be associated to multiple Azure Active Directory tenants.": null,
@@ -980,11 +928,10 @@
         "category": "core",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 54,
+        "id": 2054,
         "q": "Resource groups provide organizations with the ability to manage the compliance of Azure resources across multiple subscriptions.\nInstructions: Review the underlined text. If it makes the statement correct, select \u05d2\u20acNo change is needed\u05d2\u20ac. If the statement is incorrect, select the answer choice that makes the statement correct.",
         "options": {
             "No change is needed": null,
@@ -999,11 +946,10 @@
         "category": "core",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 55,
+        "id": 2055,
         "q": "Your company plans to migrate to Azure. The company has several departments. All the Azure resources used by each department will be managed by a department administrator.\nWhat are two possible techniques to segment Azure for the departments? Each correct answer presents a complete solution.",
         "options": {
             " multiple subscriptions": true,
@@ -1018,11 +964,10 @@
         "category": "core",
         "q_type": "mutli",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 56,
+        "id": 2056,
         "q": "Select all True statements",
         "options": {
             "A single MS account can be used to manage multiple Azure subscriptions": true,
@@ -1036,11 +981,10 @@
         "category": "core",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 57,
+        "id": 2057,
         "q": "You have several VMs in an Azure subscription.  You create a new subscription",
         "options": {
             "The VMs cannot be moved to the new subscription": null,
@@ -1055,11 +999,10 @@
         "category": "core",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 58,
+        "id": 2058,
         "q": "You have an Azure environment that contains multiple Azure virtual machines.\nYou plan to implement a solution that enables the client computers on your on-premises network to communicate to the Azure virtual machines.\nYou need to recommend which Azure resources must be created for the planned solution.\n\nWhich two Azure resources should you include in the recommendation?",
         "options": {
             "a virtual network gateway": null,
@@ -1075,11 +1018,10 @@
         "category": "core",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 59,
+        "id": 2059,
         "q": "You attempt to create several managed Microsoft SQL Server instances in an Azure environment and receive a message that you must increase your Azure subscription limits.\nWhat should you do to increase the limits?",
         "options": {
             "Create a service health alert": null,
@@ -1094,11 +1036,10 @@
         "category": "core",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 60,
+        "id": 2060,
         "q": "Select all True statements",
         "options": {
             "Each Azure subscription can contain multiple account administrators": true,
@@ -1112,11 +1053,10 @@
         "category": "core",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 61,
+        "id": 2061,
         "q": "Select all True statements",
         "options": {
             "Availability Zones can be implemented in all Azure regions.": null,
@@ -1130,11 +1070,10 @@
         "category": "core",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 62,
+        "id": 2062,
         "q": "You need to identify which storage service must be used to store the unmanaged data disks of the virtual machine.\n\nWhat should you identify?",
         "options": {
             "Containers": true,
@@ -1149,11 +1088,10 @@
         "category": "core",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 63,
+        "id": 2063,
         "q": "Your company plans to move several servers to Azure.\nThe company's compliance policy states that a server named FinServer must be on a separate network segment.\nYou are evaluating which Azure services can be used to meet the compliance policy requirements.\nWhich Azure solution should you recommend?",
         "options": {
             "a resource group for FinServer and another resource group for all the other servers": null,
@@ -1168,11 +1106,10 @@
         "category": "core",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 64,
+        "id": 2064,
         "q": "You plan to map a network drive from several computers that run Windows 10 to Azure Storage.\nYou need to create a storage solution in Azure for the planned mapped drive.\nWhat should you create?",
         "options": {
             "an Azure SQL database": null,
@@ -1187,11 +1124,10 @@
         "category": "core",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 65,
+        "id": 2065,
         "q": "You plan to implement an Azure database solution.\nYou need to implement a database solution that meets the following requirements:\n\u2711 Can add data concurrently from multiple regions\n\u2711 Can store JSON documents\nWhich database service should you deploy?",
         "options": {
             "Azure Cosmos DB": true,
@@ -1206,11 +1142,10 @@
         "category": "core",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 66,
+        "id": 2066,
         "q": "Your company plans to migrate all its network resources to Azure.\nYou need to start the planning process by exploring Azure.\nWhat should you create first?",
         "options": {
             "a subscription": true,
@@ -1225,11 +1160,10 @@
         "category": "core",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 67,
+        "id": 2067,
         "q": "Select all True statements",
         "options": {
             "All the Azure resources deployed to a resource group must use the same Azure region": null,
@@ -1243,11 +1177,10 @@
         "category": "core",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 68,
+        "id": 2068,
         "q": "Fill in the blank.  Data that is stored in the Archive access tyier of an Azure Storage account_______________",
         "options": {
             "can be accessed at any time by using azcopy.exe": null,
@@ -1262,11 +1195,10 @@
         "category": "core",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 69,
+        "id": 2069,
         "q": "Matching. You plan to deploy a critical line-of-business application to Azure.\nThe application will run on an Azure virtual machine.\n\nYou need to recommend a deployment solution for the application. The solution must provide a guaranteed availability of 99.99 percent.\n\nWhat is the minimum number of virtual machines and the minimum number of availability zones you should recommend for the deployment?",
         "options": {
             "Minimum number of virtual machines": "2",
@@ -1281,11 +1213,10 @@
         "category": "core",
         "q_type": "match",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 70,
+        "id": 2070,
         "q": "Which Azure service should you use to collect events from multiple resources into a centralized repository?",
         "options": {
             "Azure Event Hubs": null,
@@ -1300,11 +1231,10 @@
         "category": "core",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 71,
+        "id": 2071,
         "q": "An availability Zone in Azure has physically separate locations _________",
         "options": {
             "across two continents": null,
@@ -1319,11 +1249,10 @@
         "category": "core",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 72,
+        "id": 2072,
         "q": "Select all True statements",
         "options": {
             "Data that is stored in a Azure Storage account automatically has 3 copies": true,
@@ -1337,11 +1266,10 @@
         "category": "core",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 73,
+        "id": 2073,
         "q": "Select all True statements",
         "options": {
             "If you have Azure resources deployed to every region, you can implement availability zones in all the regions": null,
@@ -1355,11 +1283,10 @@
         "category": "core",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 74,
+        "id": 2074,
         "q": "Select all True statements",
         "options": {
             "North America is represented by a single Azure region": null,
@@ -1373,11 +1300,10 @@
         "category": "core",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 75,
+        "id": 2075,
         "q": "You plan to deploy several Azure virtual machines.\nYou need to ensure that the services running on the virtual machines are available if a single data center fails.\nSolution: You deploy the virtual machines to two or more scale sets.\nDoes this meet the goal?",
         "options": {
             "Yes": null,
@@ -1390,11 +1316,10 @@
         "category": "core",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 76,
+        "id": 2076,
         "q": "You need to be notified when Microsoft plans to perform maintenance that can affect the resources deployed to an Azure subscription.\nWhat should you use?",
         "options": {
             "Azure Monitor": null,
@@ -1409,11 +1334,10 @@
         "category": "core",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 77,
+        "id": 2077,
         "q": "Matching",
         "options": {
             "IoT Hub": "A managed service that provides bidirectional communication between IoT devices and Azure",
@@ -1427,11 +1351,10 @@
         "category": "core",
         "q_type": "match",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 78,
+        "id": 2078,
         "q": "Select all True statements",
         "options": {
             "A Windows Virtual Desktop session host can run Windows 10 only": null,
@@ -1445,11 +1368,10 @@
         "category": "core",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 79,
+        "id": 2079,
         "q": "Fill in the blank. __________ can calculate cost savings due to reduced electricity consumption as a result of migrating on-premises MS SQL servers to Azure",
         "options": {
             "The Azure Migrate: Server Assessment Tool": null,
@@ -1464,11 +1386,10 @@
         "category": "core",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 80,
+        "id": 2080,
         "q": "Select all True statements",
         "options": {
             "You can use Availibility Zones in Azure to protect Azure VMs from a datacenter failure": null,
@@ -1482,11 +1403,10 @@
         "category": "core",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 81,
+        "id": 2081,
         "q": "Select all True statements",
         "options": {
             "An Azure subscription can have multiple account administrators": null,
@@ -1500,11 +1420,10 @@
         "category": "core",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 82,
+        "id": 2082,
         "q": "An Azure region contains one or more data centers that are connected by using a low-latency network.",
         "options": {
             "No change is needed": true,
@@ -1519,11 +1438,10 @@
         "category": "core",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 83,
+        "id": 2083,
         "q": "Select all True statements",
         "options": {
             "To use Azure Active Directory, credentials to sign in to a computer that runs Windows 10, the computer must be joined to Azure AD.": true,
@@ -1537,11 +1455,10 @@
         "category": "core",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 84,
+        "id": 2084,
         "q": "You need to ensure that the services running on the virtual machines remain available if a single data center fails.\nWhat are two possible solutions? Each correct answer presents a complete solution.",
         "options": {
             "Deploy the virtual machines to two or more availability zones.": true,
@@ -1556,11 +1473,10 @@
         "category": "core",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 85,
+        "id": 2085,
         "q": "You have an Azure subscription named Subscription1. You sign in to the Azure portal and create a resource group named RG1.\n\nFrom Azure documentation, you have the following command that creates a virtual machine named VM1. \n\u2711  az vm create --resource-group RG1 --name VM1 --image UbuntuLTS --generate-ssh-keys\n\nYou need to create VM1 in Subscription1 by using the command.\n\nSolution: From the Azure portal, launch Azure Cloud Shell and select Bash. Run the command in Cloud Shell.\n\nDoes this meet the goal?",
         "options": {
             "Yes": true,
@@ -1573,11 +1489,10 @@
         "category": "core",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 86,
+        "id": 2086,
         "q": "Each business unit requires 20 different Azure resources for daily operation. All the business units require the same type of Azure resources.\nYou need to recommend a solution to automate the creation of the Azure resources.\nWhat should you include in the recommendations?",
         "options": {
             "Azure Resource Manager templates": true,
@@ -1592,11 +1507,10 @@
         "category": "core",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 87,
+        "id": 2087,
         "q": "Matching",
         "options": {
             "Azure Functions": "Provides the platform for serverless code",
@@ -1611,11 +1525,10 @@
         "category": "core",
         "q_type": "match",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 88,
+        "id": 2088,
         "q": "A team of developers at your company plans to deploy, and then remove, 50 customized virtual machines each week. Thirty of the virtual machines run Windows\nServer 2016 and 20 of the virtual machines run Ubuntu Linux.\nYou need to recommend which Azure service will minimize the administrative effort required to deploy and remove the virtual machines.\nWhat should you recommend?",
         "options": {
             "Azure Reserved Virtual Machines (VM) Instances": null,
@@ -1630,11 +1543,10 @@
         "category": "core",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 89,
+        "id": 2089,
         "q": "Select all True statements.  A support engineer plans to perform several Azure management tasks by using the Azure CLI.\nYou install the CLI on a computer.\nYou need to tell the support engineer which tools to use to run the CLI.\nWhich two tools should you instruct the support engineer to use?",
         "options": {
             "Command Prompt": null,
@@ -1650,11 +1562,10 @@
         "category": "core",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 90,
+        "id": 2090,
         "q": "You have an Azure environment. You need to create a new Azure virtual machine from a tablet that runs the Android operating system.\nSolution: You use PowerShell in Azure Cloud Shell.\nDoes this meet the goal?",
         "options": {
             "Yes": true,
@@ -1667,11 +1578,10 @@
         "category": "core",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 91,
+        "id": 2091,
         "q": "You have an Azure environment. You need to create a new Azure virtual machine from a tablet that runs the Android operating system.\n\nSolution: You use the PowerApps portal.\nDoes this meet the goal?",
         "options": {
             "Yes": null,
@@ -1684,11 +1594,10 @@
         "category": "core",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 92,
+        "id": 2092,
         "q": "You have an Azure environment. You need to create a new Azure virtual machine from a tablet that runs the Android operating system.\nSolution: You use the Azure portal.\n\nDoes this meet the goal?",
         "options": {
             "Yes": true,
@@ -1701,11 +1610,10 @@
         "category": "core",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 93,
+        "id": 2093,
         "q": "Fill in the blank. _________ is an Apache Spark-based analytics service",
         "options": {
             "Azure Databricks": true,
@@ -1720,11 +1628,10 @@
         "category": "core",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 94,
+        "id": 2094,
         "q": "Select all True statements",
         "options": {
             "Azure Monitor can monitor the performance of on-premises computers": true,
@@ -1738,11 +1645,10 @@
         "category": "core",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 95,
+        "id": 2095,
         "q": "Which Azure service provides a set of version control tools to manage code?",
         "options": {
             "Azure Repos": true,
@@ -1757,11 +1663,10 @@
         "category": "core",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 96,
+        "id": 2096,
         "q": "From the Azure Portal, which icon do you select to open the Azure Cloud Shell",
         "options": {
             "Down arrow": null,
@@ -1776,11 +1681,10 @@
         "category": "core",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 97,
+        "id": 2097,
         "q": "You have a virtual machine named VM1 that runs Windows Server 2016. VM1 is in the East US Azure region.\n\nWhich Azure service should you use from the Azure portal to view service failure notifications that can affect the availability of VM1?",
         "options": {
             "Azure Service Fabric": null,
@@ -1795,11 +1699,10 @@
         "category": "core",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 98,
+        "id": 2098,
         "q": "An Azure administrator plans to run a PowerShell script that creates Azure resources.\nYou need to recommend which computer configuration to use to run the script.\n\nSolution: Run the script from a computer that runs Linux and has the Azure CLI tools installed.\nDoes this meet the goal?",
         "options": {
             "Yes": null,
@@ -1812,11 +1715,10 @@
         "category": "core",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 99,
+        "id": 2099,
         "q": "An Azure administrator plans to run a PowerShell script that creates Azure resources.\nYou need to recommend which computer configuration to use to run the script.\nSolution: Run the script from a computer that runs Chrome OS and uses Azure Cloud Shell.\nDoes this meet the goal?",
         "options": {
             "Yes": true,
@@ -1829,11 +1731,10 @@
         "category": "core",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 100,
+        "id": 2100,
         "q": "Select all True statements",
         "options": {
             "From Azure Service Health, an administrator can view the health of all the services inan Azure Environment": true,
@@ -1847,11 +1748,10 @@
         "category": "core",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 101,
+        "id": 2101,
         "q": "An Azure administrator plans to run a PowerShell script that creates Azure resources.\nYou need to recommend which computer configuration to use to run the script.\n\nSolution: Run the script from a computer that runs macOS and has PowerShell Core 6.0 installed.\nDoes this meet the goal?",
         "options": {
             "Yes": true,
@@ -1864,11 +1764,10 @@
         "category": "core",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 103,
+        "id": 2103,
         "q": "Matching",
         "options": {
             "Azure DevOps": "An integrated solution for the deployment of code.",
@@ -1883,11 +1782,10 @@
         "category": "core",
         "q_type": "match",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 104,
+        "id": 2104,
         "q": "Matching",
         "options": {
             "Azure SQL Database": "A managed relational cloud database service",
@@ -1902,11 +1800,10 @@
         "category": "core",
         "q_type": "match",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 105,
+        "id": 2105,
         "q": "You need to identify which blades in the Azure portal must be used to perform the following tasks:\n\n\u2711 View security recommendations.\n\u2711 Monitor the health of Azure services.\n\u2711 Browse available virtual machine images.\n\nWhich blade should you identify for each task? To answer, select the appropriate options in the answer area.",
         "options": {
             "Monitor the health of Azure services": "Monitor",
@@ -1920,11 +1817,10 @@
         "category": "core",
         "q_type": "match",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 106,
+        "id": 2106,
         "q": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.\n\nYou have an Azure environment. You need to create a new Azure virtual machine from a tablet that runs the Android operating system.\n\nSolution: You use Bash in Azure Cloud Shell.\nDoes this meet the goal?",
         "options": {
             "Yes": true,
@@ -1937,11 +1833,10 @@
         "category": "core",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 107,
+        "id": 2107,
         "q": "You have an on-premises application that sends email notifications automatically based on a rule.\n\n\u2711 You plan to migrate the application to Azure.\n\u2711 You need to recommend a serverless computing solution for the application.\n\nWhat should you include in the recommendation?",
         "options": {
             "a web app": null,
@@ -1956,11 +1851,10 @@
         "category": "core",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 108,
+        "id": 2108,
         "q": "You plan to deploy a website to Azure. The website will be accessed by users worldwide and will host large video files.\nYou need to recommend which Azure feature must be used to provide the best video playback experience.\nWhat should you recommend?",
         "options": {
             "an application gateway": null,
@@ -1975,11 +1869,10 @@
         "category": "core",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 109,
+        "id": 2109,
         "q": "Your company plans to deploy several million sensors that will upload data to Azure.\nYou need to identify which Azure resources must be created to support the planned solution.\nWhich two Azure resources should you identify? Each correct answer presents part of the solution.",
         "options": {
             "Azure Data Lake": true,
@@ -1995,11 +1888,10 @@
         "category": "core",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 110,
+        "id": 2110,
         "q": "You have an Azure web app.\nYou need to manage the settings of the web app from an iPhone.\n\nWhat are two Azure management tools that you can use? Each correct answer presents a complete solution.",
         "options": {
             "Azure CLI": null,
@@ -2015,11 +1907,10 @@
         "category": "core",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 111,
+        "id": 2111,
         "q": "Your company plans to deploy an Artificial Intelligence (AI) solution in Azure.\nWhat should the company use to build, test, and deploy predictive analytics solutions?",
         "options": {
             "Azure Logic Apps": null,
@@ -2034,11 +1925,10 @@
         "category": "core",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 112,
+        "id": 2112,
         "q": "Select all True statements",
         "options": {
             "Azure Advisor can generate a list of Azure virtual machines that are protected by Azure Backup": null,
@@ -2052,11 +1942,10 @@
         "category": "core",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 113,
+        "id": 2113,
         "q": "What can you use to automatically send an alert if an administrator stops an Azure virtual machine?",
         "options": {
             "Azure Advisor": null,
@@ -2071,11 +1960,10 @@
         "category": "core",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 114,
+        "id": 2114,
         "q": "Matching",
         "options": {
             "Azure Machine Learning": "Uses past trainings to provide predictions that have high probability",
@@ -2090,11 +1978,10 @@
         "category": "core",
         "q_type": "match",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 115,
+        "id": 2115,
         "q": "You need to create a new Azure virtual machine from a tablet that runs the Android operating system.\nWhat are three possible solutions? Each correct answer presents a complete solution.",
         "options": {
             "Use Bash in Azure Cloud Shell.": true,
@@ -2110,11 +1997,10 @@
         "category": "core",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 116,
+        "id": 2116,
         "q": "A team of developers at your company plans to deploy, and then remove, 50 virtual machines each week. All the virtual machines are configured by using Azure\nResource Manager templates.\nYou need to recommend which Azure service will minimize the administrative effort required to deploy and remove the virtual machines.\nWhat should you recommend?",
         "options": {
             "Azure Reserved Virtual Machine (VM) Instances": null,
@@ -2129,11 +2015,10 @@
         "category": "core",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 117,
+        "id": 2117,
         "q": "Select all True statements",
         "options": {
             "Azure Advisor provides recommendations on how to improve security of an Azure Active Directory environment": null,
@@ -2147,11 +2032,10 @@
         "category": "core",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 118,
+        "id": 2118,
         "q": "You have an Azure subscription named Subscription1. You sign in to the Azure portal and create a resource group named RG1.\nFrom Azure documentation, you have the following command that creates a virtual machine named VM1. az vm create --resource-group RG1 --name VM1 --image UbuntuLTS --generate-ssh-keys\nYou need to create VM1 in Subscription1 by using the command.\n\nSolution: From the Azure portal, launch Azure Cloud Shell and select PowerShell. Run the command in Cloud Shell.\nDoes this meet the goal?",
         "options": {
             "Yes": true,
@@ -2164,11 +2048,10 @@
         "category": "core",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 119,
+        "id": 2119,
         "q": "You have an Azure subscription named Subscription1. You sign in to the Azure portal and create a resource group named RG1.\nFrom Azure documentation, you have the following command that creates a virtual machine named VM1. \naz vm create --resource-group RG1 --name VM1 --image UbuntuLTS --generate-ssh-keys\nYou need to create VM1 in Subscription1 by using the command.\n\nSolution: From a computer that runs Windows 10, install Azure CLI. From PowerShell, sign in to Azure and then run the command.\nDoes this meet the goal?",
         "options": {
             "Yes": null,
@@ -2181,11 +2064,10 @@
         "category": "core",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 120,
+        "id": 2120,
         "q": "You have an Azure subscription named Subscription1. You sign in to the Azure portal and create a resource group named RG1.\nFrom Azure documentation, you have the following command that creates a virtual machine named VM1. \naz vm create --resource-group RG1 --name VM1 --image UbuntuLTS --generate-ssh-keys\n\nYou need to create VM1 in Subscription1 by using the command.\n\nSolution: From a computer that runs Windows 10, install Azure CLI. From a command prompt, sign in to Azure and then run the command.\nDoes this meet the goal?",
         "options": {
             "Yes": null,
@@ -2198,11 +2080,10 @@
         "category": "core",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 121,
+        "id": 2121,
         "q": "Several support engineers plan to manage Azure by using the computers shown in the following table: \n\u2711 COMPUTER1: Windows10, \n\u2711 COMPUTER2: Ubuntu, \n\u2711 COMPUTER3: MACOS.  \n\nYou need to identify which Azure management tools can be used from each computer.",
         "options": {
             "The Azure CLI": null,
@@ -2218,11 +2099,10 @@
         "category": "core",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 122,
+        "id": 2122,
         "q": "Fill in the blank.  You can access Compliance Manager from the _________",
         "options": {
             "Azure Active Directory admin center": null,
@@ -2237,11 +2117,10 @@
         "category": "core",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 123,
+        "id": 2123,
         "q": "Fill in the blank.  _________  common platform for deploying objects to a cloud infrastructure and for implementing consistency across the Azure environment",
         "options": {
             "Azure policies provide": null,
@@ -2256,11 +2135,10 @@
         "category": "core",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 124,
+        "id": 2124,
         "q": "Matching",
         "options": {
             "Azure Bot Services": "Provides a digital online assistant that provides speech support",
@@ -2275,11 +2153,10 @@
         "category": "core",
         "q_type": "match",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 125,
+        "id": 2125,
         "q": "An Azure administrator plans to run a PowerShell script that creates Azure resources.\nYou need to recommend which computer configuration to use to run the script.\nSolution: Run the script from a computer that runs Windows 10 and has the Azure PowerShell module installed.\nDoes this meet the goal?",
         "options": {
             "Yes": true,
@@ -2292,11 +2169,10 @@
         "category": "core",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 126,
+        "id": 2126,
         "q": "",
         "options": {
             "Azure Virtual Machines": "Provide operating system virtualization",
@@ -2311,11 +2187,10 @@
         "category": "core",
         "q_type": "match",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 127,
+        "id": 2127,
         "q": "Which service provides serverless computing in Azure?",
         "options": {
             "Azure Virtual Machines": null,
@@ -2330,11 +2205,10 @@
         "category": "core",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 128,
+        "id": 2128,
         "q": "An Azure administrator plans to run a PowerShell script that creates Azure resources.\nYou need to recommend which computer configuration to use to run the script.\n\nWhich three computers can run the script? Each correct answer presents a complete solution.",
         "options": {
             "a computer that runs macOS and has PowerShell Core 6.0 installed.": true,
@@ -2350,11 +2224,10 @@
         "category": "core",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 129,
+        "id": 2129,
         "q": "Select all True statements",
         "options": {
             "Azure Firewall will encrypt all the network traffic sent from Azure to the Internet": null,
@@ -2368,11 +2241,10 @@
         "category": "security",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 130,
+        "id": 2130,
         "q": "Select all True statements",
         "options": {
             "Azure Security Center can monitor Azure resources and on-premises resources": true,
@@ -2386,11 +2258,10 @@
         "category": "security",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 131,
+        "id": 2131,
         "q": "You need to configure an Azure solution that meets the following requirements:\n1) Secures websites from attacks 2) Generates reports that contain details of attempted attacks\nWhat should you include in the solution?",
         "options": {
             "Azure Firewall": null,
@@ -2405,11 +2276,10 @@
         "category": "security",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 132,
+        "id": 2132,
         "q": "Matching",
         "options": {
             "Monitor threats by using sensors": "Azure Advanced Threat Protection (ATP)",
@@ -2422,11 +2292,10 @@
         "category": "security",
         "q_type": "match",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 133,
+        "id": 2133,
         "q": "Your Azure environment contains multiple Azure virtual machines.\nYou need to ensure that a virtual machine named VM1 is accessible from the Internet over HTTP.\nWhat are two possible solutions? Each correct answer presents a complete solution.",
         "options": {
             "Modify an Azure Traffic Manager profile": null,
@@ -2441,11 +2310,10 @@
         "category": "security",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 134,
+        "id": 2134,
         "q": "Fill in the blank.  You can enable just in time (JIT)) VM access by using __________",
         "options": {
             "Azure Bastion": null,
@@ -2460,11 +2328,10 @@
         "category": "security",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 135,
+        "id": 2135,
         "q": "Select all True statements",
         "options": {
             "You can associate a network security group (NSG) to a virtual network subnet": true,
@@ -2478,11 +2345,10 @@
         "category": "security",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 136,
+        "id": 2136,
         "q": "You have an Azure environment that contains 10 virtual networks and 100 virtual machines.\nYou need to limit the amount of inbound traffic to all the Azure virtual networks.\nWhat should you create?",
         "options": {
             "one application security group (ASG)": null,
@@ -2497,11 +2363,10 @@
         "category": "security",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 137,
+        "id": 2137,
         "q": "Azure Key Vault is used to store secrets for Azure Active Directory (Azure AD) user accounts.",
         "options": {
             "No change is needed": null,
@@ -2516,11 +2381,10 @@
         "category": "security",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 138,
+        "id": 2138,
         "q": "Your company plans to automate the deployment of servers to Azure.\nYour manager is concerned that you may expose administrative credentials during the deployment.\nYou need to recommend an Azure solution that encrypts the administrative credentials during the deployment.\n\nWhat should you include in the recommendation?",
         "options": {
             "Azure Key Vault": null,
@@ -2535,11 +2399,10 @@
         "category": "security",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 139,
+        "id": 2139,
         "q": "You plan to deploy several Azure virtual machines.\nYou need to control the ports that devices on the Internet can use to access the virtual machines.\nWhat should you use?",
         "options": {
             "a network security group (NSG)": true,
@@ -2554,11 +2417,10 @@
         "category": "security",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 140,
+        "id": 2140,
         "q": "Fill in the blank.  After you create a virtual machine, you can modify the ____________ to allow connections to TCP port 8080 on a virtual machine",
         "options": {
             "network security group (NSG)": true,
@@ -2573,11 +2435,10 @@
         "category": "security",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 141,
+        "id": 2141,
         "q": "Select all True statements",
         "options": {
             "You can create custom Azure roles to control access to resources": true,
@@ -2591,11 +2452,10 @@
         "category": "security",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 142,
+        "id": 2142,
         "q": "Your Azure environment contains multiple Azure virtual machines.\nYou need to ensure that a virtual machine named VM1 is accessible from the Internet over HTTP.\n\nSolution: You modify a network security group (NSG).\nDoes this meet the goal?",
         "options": {
             "Yes": true,
@@ -2608,11 +2468,10 @@
         "category": "security",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 143,
+        "id": 2143,
         "q": "Your Azure environment contains multiple Azure virtual machines.\nYou need to ensure that a virtual machine named VM1 is accessible from the Internet over HTTP.\n\nSolution: You modify a DDoS protection plan.\nDoes this meet the goal?",
         "options": {
             "Yes": null,
@@ -2625,11 +2484,10 @@
         "category": "security",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 144,
+        "id": 2144,
         "q": "You need to collect and automatically analyze security events from Azure Active Directory (Azure AD).\nWhat should you use?",
         "options": {
             "Azure Sentinel": true,
@@ -2644,11 +2502,10 @@
         "category": "security",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 145,
+        "id": 2145,
         "q": "Your Azure environment contains multiple Azure virtual machines.\nYou need to ensure that a virtual machine named VM1 is accessible from the Internet over HTTP.\nSolution: You modify an Azure firewall.\nDoes this meet the goal?",
         "options": {
             "Yes": true,
@@ -2661,11 +2518,10 @@
         "category": "security",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 146,
+        "id": 2146,
         "q": "Your Azure environment contains multiple Azure virtual machines.\nYou need to ensure that a virtual machine named VM1 is accessible from the Internet over HTTP.\n\nSolution: You modify an Azure Traffic Manager profile.\nDoes this meet the goal?",
         "options": {
             "Yes": null,
@@ -2678,11 +2534,10 @@
         "category": "security",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 147,
+        "id": 2147,
         "q": "Your company plans to deploy several web servers and several database servers to Azure.\nYou need to recommend an Azure solution to limit the types of connections from the web servers to the database servers.\n\nWhat should you include in the recommendation?",
         "options": {
             "network security groups (NSGs)": null,
@@ -2697,11 +2552,10 @@
         "category": "security",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 148,
+        "id": 2148,
         "q": "Fill in the blank.  From _________ you can view which user turned off a specific virtual machine during the last 14 days.",
         "options": {
             "Azure Access Control IAM": null,
@@ -2716,11 +2570,10 @@
         "category": "security",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 149,
+        "id": 2149,
         "q": "Which service provides network traffic filtering across multiple Azure subscriptions and virtual networks?",
         "options": {
             "Azure Firewall": true,
@@ -2735,11 +2588,10 @@
         "category": "security",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 150,
+        "id": 2150,
         "q": "Which Azure service should you use to store certificates?",
         "options": {
             "Azure Security Center": null,
@@ -2754,11 +2606,10 @@
         "category": "security",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 151,
+        "id": 2151,
         "q": "Which Azure service can you use as a security information and event management (SIEM) solution?",
         "options": {
             "Azure Analysis Services": null,
@@ -2773,11 +2624,10 @@
         "category": "",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 152,
+        "id": 2152,
         "q": "What can Azure Information Protection encrypt?",
         "options": {
             "network traffic": null,
@@ -2792,11 +2642,10 @@
         "category": "identity",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 153,
+        "id": 2153,
         "q": "What should you use to evaluate whether your companys Azure environment meets regulatory requirements?",
         "options": {
             "the Knowledge Center website": null,
@@ -2811,11 +2660,10 @@
         "category": "identity",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 154,
+        "id": 2154,
         "q": "Fill in the blank. Your company implements ____________ automatically add a watermark to Microsoft Word documents that contain credit card information.",
         "options": {
             "Azure policies": null,
@@ -2830,11 +2678,10 @@
         "category": "identity",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 155,
+        "id": 2155,
         "q": "You have a Azure virtual netowrk named VNET1 in a resource group named RG1.  You assign the Azure Policy definition of Not Allowed Resource Type and specify that virtual networks are not allowed resource type in RG1.  VNET1 ________",
         "options": {
             "is deleted automatically": null,
@@ -2849,11 +2696,10 @@
         "category": "identity",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 156,
+        "id": 2156,
         "q": "Your company has an Azure subscription that contains resources in several regions.\nA company policy states that administrators must only be allowed to create additional Azure resources in a region in the country where their office is located.\n\nYou need to create the Azure resource that must be used to meet the policy requirement.\nWhat should you create?",
         "options": {
             "a read-only lock": null,
@@ -2868,11 +2714,10 @@
         "category": "identity",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 157,
+        "id": 2157,
         "q": "From Azure Cloud Shell, you can track your companys regulatory standards and regulations, such as ISO 27001.",
         "options": {
             "No change is needed": null,
@@ -2887,11 +2732,10 @@
         "category": "identity",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 158,
+        "id": 2158,
         "q": "Select all True statements",
         "options": {
             "You can create Group Policies in Azure Active Directory": true,
@@ -2905,11 +2749,10 @@
         "category": "identity",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 159,
+        "id": 2159,
         "q": "Fill in the blank. The __________ explains what data Microsoft processes, how Microsoft processes the data and the purpose of processing the data.",
         "options": {
             "Microsoft Online Services Privacy Satatment": true,
@@ -2924,11 +2767,10 @@
         "category": "identity",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 160,
+        "id": 2160,
         "q": "Fill in the blank.  is the process of verifing a users credentials",
         "options": {
             "Authorization": null,
@@ -2943,11 +2785,10 @@
         "category": "identity",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 161,
+        "id": 2161,
         "q": "Fill in the blank. An Azure Policy initiative definition is a _____________",
         "options": {
             "collection of policy definations": true,
@@ -2962,11 +2803,10 @@
         "category": "identity",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 162,
+        "id": 2162,
         "q": "\"Fill in the blank. ___________ provide organizations with the ability to manage the compliance of Azure resources across multiple subscriptions",
         "options": {
             "Resource groups": null,
@@ -2981,11 +2821,10 @@
         "category": "identity",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 163,
+        "id": 2163,
         "q": "Select all True statements",
         "options": {
             "General Data Protection Regulation (GDPR) defines data protection and privacy rules": true,
@@ -2999,11 +2838,10 @@
         "category": "identity",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 164,
+        "id": 2164,
         "q": "Select all True statements",
         "options": {
             "You can add an Azure Resource Manager template to an Azure blueprint": true,
@@ -3017,11 +2855,10 @@
         "category": "identity",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 165,
+        "id": 2165,
         "q": "Select all True statements",
         "options": {
             "Azure China is operated by Microsoft": null,
@@ -3035,11 +2872,10 @@
         "category": "identity",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 166,
+        "id": 2166,
         "q": "Select all True statements",
         "options": {
             "An Azure reource can have multiple Delete locks": true,
@@ -3053,11 +2889,10 @@
         "category": "identity",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 167,
+        "id": 2167,
         "q": "Your company plans to migrate all on-premises data to Azure.\nYou need to identify whether Azure complies with the company\u05d2\u20ac\u2122s regional requirements.\nWhat should you use?",
         "options": {
             "the Knowledge Center": null,
@@ -3072,11 +2907,10 @@
         "category": "identity",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 168,
+        "id": 2168,
         "q": "Select all True statements",
         "options": {
             "Authorization to access Azure Resources can be provided only to Azure Active Directory users": null,
@@ -3090,11 +2924,10 @@
         "category": "identity",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 169,
+        "id": 2169,
         "q": "Fill in the blank.  If a resource group named RG1 has a delete lock, _________ can delete RG1",
         "options": {
             "only a member of the global administrators group": null,
@@ -3109,11 +2942,10 @@
         "category": "identity",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 170,
+        "id": 2170,
         "q": "Azure Germany can be used by legal residents of Germany only.",
         "options": {
             "no change is needed": null,
@@ -3128,11 +2960,10 @@
         "category": "identity",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 171,
+        "id": 2171,
         "q": "Select all True statements",
         "options": {
             "Identities stored in an on-premises Active directory can be syncronized to Azure Active Directory": true,
@@ -3146,11 +2977,10 @@
         "category": "identity",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 172,
+        "id": 2172,
         "q": "Fill in the blank.  You can view your company's regulatory compliance report from __________",
         "options": {
             "Azure Advisor": null,
@@ -3165,11 +2995,10 @@
         "category": "identity",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 173,
+        "id": 2173,
         "q": "What should you use to evaluate whether your company's Azure environment meets regulatory requirements?",
         "options": {
             "Azure Service Health": null,
@@ -3184,11 +3013,10 @@
         "category": "identity",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 174,
+        "id": 2174,
         "q": "Your company has an Azure subscription that contains resources in several regions.\nYou need to ensure that administrators can only create resources in those regions.\n\nWhat should you use?",
         "options": {
             "a read-only lock": null,
@@ -3203,11 +3031,10 @@
         "category": "identity",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 175,
+        "id": 2175,
         "q": "Select all True statements",
         "options": {
             "Azure Active Directory requires the implementation of domain controllers on Azure virtual machines": null,
@@ -3221,11 +3048,10 @@
         "category": "identity",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 176,
+        "id": 2176,
         "q": "Which two types of customers are eligible to use Azure Government to develop a cloud solution? ",
         "options": {
             "a Canadian government contractor": null,
@@ -3241,11 +3067,10 @@
         "category": "identity",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 177,
+        "id": 2177,
         "q": "Select all True statements",
         "options": {
             "To implement an Azure Multi-Factor Authentication (MFA) solution, you must sync on-premises identities to the cloud": null,
@@ -3259,11 +3084,10 @@
         "category": "identity",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 178,
+        "id": 2178,
         "q": "You need to ensure that when Azure Active Directory (Azure AD) users connect to Azure AD from the Internet by using an anonymous IP address, the users are prompted automatically to change their password.\nWhich Azure service should you use?",
         "options": {
             "Azure AD Connect Health": null,
@@ -3278,11 +3102,10 @@
         "category": "identity",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 179,
+        "id": 2179,
         "q": "Matching",
         "options": {
             "ISO": "An organization that defines international standards across all industries",
@@ -3297,11 +3120,10 @@
         "category": "identity",
         "q_type": "match",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 180,
+        "id": 2180,
         "q": "To what should an application connect to retrieve security tokens?",
         "options": {
             "an Azure Storage account": null,
@@ -3316,11 +3138,10 @@
         "category": "identity",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 181,
+        "id": 2181,
         "q": "Your network contains an Active Directory forest. The forest contains 5,000 user accounts.\nYour company plans to migrate all network resources to Azure and to decommission the on-premises data center.\n\nYou need to recommend a solution to minimize the impact on users after the planned migration.\nWhat should you recommend?",
         "options": {
             "Implement Azure Multi-Factor Authentication (MFA)": null,
@@ -3335,11 +3156,10 @@
         "category": "identity",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 182,
+        "id": 2182,
         "q": "Select all True statements",
         "options": {
             "You can configure the Azure Active Directory activity logs to appear in Azure Monitor": true,
@@ -3353,11 +3173,10 @@
         "category": "identity",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 183,
+        "id": 2183,
         "q": "You create a resource group named RG1 in Azure Resource Manager.\nYou need to prevent the accidental deletion of the resources in RG1.\nWhich setting should you use?",
         "options": {
             "Policies": null,
@@ -3372,11 +3191,10 @@
         "category": "identity",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 184,
+        "id": 2184,
         "q": "You have a resource group named RG1.\nYou need to prevent the creation of virtual machines only in RG1. The solution must ensure that other objects can be created in RG1.\nWhat should you use?",
         "options": {
             "a lock": null,
@@ -3391,11 +3209,10 @@
         "category": "identity",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 185,
+        "id": 2185,
         "q": "Select all True statements",
         "options": {
             "Storing 1 TB of data in Azure Blob storage will always cost the same, regardless of the Azure region in which the data is located": null,
@@ -3409,11 +3226,10 @@
         "category": "cost",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 186,
+        "id": 2186,
         "q": "Select all True statements",
         "options": {
             "In Azure Active Directory Premium P2, at least 99.9% availability is guaranteed": true,
@@ -3427,11 +3243,10 @@
         "category": "cost",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 187,
+        "id": 2187,
         "q": "Select all True statements",
         "options": {
             "Adding resource groups in the Azure subscription generates additional costs": null,
@@ -3445,11 +3260,10 @@
         "category": "cost",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 188,
+        "id": 2188,
         "q": "Fill in the blank.  Yu deploy an Azure resource.  The resource becomes unavailable for an extended period dur to a service outage.  Microsoft will __________",
         "options": {
             "refund your bank account": null,
@@ -3464,11 +3278,10 @@
         "category": "cost",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 189,
+        "id": 2189,
         "q": "Which task can you perform by using Azure Advisor?",
         "options": {
             " Integrate Active Directory and Azure Active Directory (Azure AD).": null,
@@ -3483,11 +3296,10 @@
         "category": "cost",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 190,
+        "id": 2190,
         "q": "Select all True statements",
         "options": {
             "If your company uses an Azure free account, you will only be able to use a subset of Azure services": null,
@@ -3501,11 +3313,10 @@
         "category": "cost",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 191,
+        "id": 2191,
         "q": "Select all True statements",
         "options": {
             "All Azure services in private preview must be accessed by using a separate portal": null,
@@ -3519,11 +3330,10 @@
         "category": "cost",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 192,
+        "id": 2192,
         "q": "Your company has 10 offices. You plan to generate several billing reports from the Azure portal. Each report will contain the Azure resource utilization of each office.\nWhich Azure Resource Manager feature should you use before you generate the reports?",
         "options": {
             "tags": true,
@@ -3538,11 +3348,10 @@
         "category": "identity",
         "q_type": "cost",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 193,
+        "id": 2193,
         "q": "Select all True statements",
         "options": {
             "A Standard support plan is included in an Azure Free account": null,
@@ -3556,11 +3365,10 @@
         "category": "cost",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 194,
+        "id": 2194,
         "q": "If Microsoft plans to end support for an Azure service that does NOT have a successor service, Microsoft will provide notification at least 12 months before.",
         "options": {
             "No change is needed.": true,
@@ -3575,11 +3383,10 @@
         "category": "cost",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 195,
+        "id": 2195,
         "q": "Select all True statements",
         "options": {
             "A user who is assigned the Owner role can transfer ownership of an Azure subscription": null,
@@ -3593,11 +3400,10 @@
         "category": "cost",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 196,
+        "id": 2196,
         "q": "Select all True statements",
         "options": {
             "With Azure Reservations, you pay less for VMs than with pay-as-you-go pricing": true,
@@ -3611,11 +3417,10 @@
         "category": "cost",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 197,
+        "id": 2197,
         "q": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.\nYour company has an Azure subscription that contains the following unused resources:\n\u2711 20 user accounts in Azure Active Directory (Azure AD)\n\u2711 Five groups in Azure AD\n\u2711 10 public IP addresses\n\u2711 10 network interfaces\n\nYou need to reduce the Azure costs for the company.\n\nSolution: You remove the unused network interfaces.\nDoes this meet the goal?",
         "options": {
             "Yes": null,
@@ -3628,11 +3433,10 @@
         "category": "cost",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 198,
+        "id": 2198,
         "q": "Your company has an Azure subscription that contains the following unused resources:\n20 user accounts in Azure Active Directory (Azure AD)\n\u2711 Five groups in Azure AD\n\u2711 10 public IP addresses\n\u2711 10 network interfaces\n\nYou need to reduce the Azure costs for the company.\n\nSolution: You remove the unused public IP addresses.\nDoes this meet the goal?",
         "options": {
             "Yes": true,
@@ -3645,11 +3449,10 @@
         "category": "cost",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 199,
+        "id": 2199,
         "q": "Your company has an Azure subscription that contains the following unused resources:\n\u2711 20 user accounts in Azure Active Directory (Azure AD)\n\u2711 Five groups in Azure AD\n\u2711 10 public IP addresses\n\u2711 10 network interfaces\n\nYou need to reduce the Azure costs for the company.\nSolution: You remove the unused user accounts.\nDoes this meet the goal?",
         "options": {
             "Yes": null,
@@ -3662,11 +3465,10 @@
         "category": "cost",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 200,
+        "id": 2200,
         "q": "How should you calculate the monthly uptime percentage?",
         "options": {
             "Downtime in minutes / 60 X 100": null,
@@ -3680,11 +3482,10 @@
         "category": "cost",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 201,
+        "id": 2201,
         "q": "Select all True statements",
         "options": {
             "By creating additional resource groups in an Azure subscription, additional costs are incurred": null,
@@ -3698,11 +3499,10 @@
         "category": "cost",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 202,
+        "id": 2202,
         "q": "A support plan solution that gives you best practice information, health status and notifications, and 24/7 access to billing information at the lowest possible cost is a Standard support plan.",
         "options": {
             "No change is needed": null,
@@ -3717,11 +3517,10 @@
         "category": "cost",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:56"
     },
     {
-        "id": 203,
+        "id": 2203,
         "q": "In which Azure support plans can you open a new support request?",
         "options": {
             "Premier and Professional Direct only": null,
@@ -3736,11 +3535,10 @@
         "category": "cost",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:57"
     },
     {
-        "id": 204,
+        "id": 2204,
         "q": "You can create an Azure support request from support.microsoft.com.",
         "options": {
             "No change is needed.": null,
@@ -3755,11 +3553,10 @@
         "category": "cost",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:57"
     },
     {
-        "id": 205,
+        "id": 2205,
         "q": "Your company has an Azure subscription that contains the following unused resources:\n\u2711 20 user accounts in Azure Active Directory (Azure AD)\n\u2711 Five groups in Azure AD\n\u2711 10 public IP addresses\n\u2711 10 network interfaces\n\nYou need to reduce the Azure costs for the company.\n\nSolution: You remove the unused groups.\nDoes this meet the goal?",
         "options": {
             "Yes": null,
@@ -3772,11 +3569,10 @@
         "category": "cost",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:57"
     },
     {
-        "id": 206,
+        "id": 2206,
         "q": "The Azure Standard support plan is the lowest cost option to receive 24x7 access to support engineers by phone.",
         "options": {
             "No change is needed": true,
@@ -3791,11 +3587,10 @@
         "category": "cost",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:57"
     },
     {
-        "id": 207,
+        "id": 2207,
         "q": "Fill in the blank. All Azure services that are in public preview are ___________",
         "options": {
             "provided without any documentation": null,
@@ -3810,30 +3605,10 @@
         "category": "cost",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:57"
     },
     {
-        "id": 208,
-        "q": "What is guaranteed in an Azure Service Level Agreement (SLA) for virtual machines?",
-        "options": {
-            "uptime": true,
-            "feature availability": null,
-            "bandwidth": null,
-            "performance": null
-        },
-        "explain": "The SLA for virtual machines guarantees \u05d2\u20ac\u02dcuptime\u05d2\u20ac\u2122. The amount of uptime guaranteed depends on factors such as whether the VMs are in an availability set or availability zone if there is more than one VM, the distribution of the VMs if there is more than one or the disk type if it is a single VM.\n\nThe SLA for Virtual Machines states:\n\u2711 For all Virtual Machines that have two or more instances deployed across two or more Availability Zones in the same Azure region, we guarantee you will have\n\nVirtual Machine Connectivity to at least one instance at least 99.99% of the time.\n\u2711 For all Virtual Machines that have two or more instances deployed in the same Availability Set or in the same Dedicated Host Group, we guarantee you will have Virtual Machine Connectivity to at least one instance at least 99.95% of the time.\n\u2711 For any Single Instance Virtual Machine using Premium SSD or Ultra Disk for all Operating System Disks and Data Disks, we guarantee you will have Virtual\n\nMachine Connectivity of at least 99.9%.",
-        "explain_url": "https://azure.microsoft.com/en-us/support/legal/sla/summary/",
-        "notes": null,
-        "history": null,
-        "category": "cost",
-        "q_type": "basic",
-        "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
-    },
-    {
-        "id": 209,
+        "id": 2209,
         "q": "Fill in the blank.  An Azure service is available to all Azure customers when it is in _______________",
         "options": {
             "public preview": null,
@@ -3848,11 +3623,28 @@
         "category": "cost",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:41",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:57"
     },
     {
-        "id": 210,
+        "id": 2208,
+        "q": "What is guaranteed in an Azure Service Level Agreement (SLA) for virtual machines?",
+        "options": {
+            "uptime": true,
+            "feature availability": null,
+            "bandwidth": null,
+            "performance": null
+        },
+        "explain": "The SLA for virtual machines guarantees \u05d2\u20ac\u02dcuptime\u05d2\u20ac\u2122. The amount of uptime guaranteed depends on factors such as whether the VMs are in an availability set or availability zone if there is more than one VM, the distribution of the VMs if there is more than one or the disk type if it is a single VM.\n\nThe SLA for Virtual Machines states:\n\u2711 For all Virtual Machines that have two or more instances deployed across two or more Availability Zones in the same Azure region, we guarantee you will have\n\nVirtual Machine Connectivity to at least one instance at least 99.99% of the time.\n\u2711 For all Virtual Machines that have two or more instances deployed in the same Availability Set or in the same Dedicated Host Group, we guarantee you will have Virtual Machine Connectivity to at least one instance at least 99.95% of the time.\n\u2711 For any Single Instance Virtual Machine using Premium SSD or Ultra Disk for all Operating System Disks and Data Disks, we guarantee you will have Virtual\n\nMachine Connectivity of at least 99.9%.",
+        "explain_url": "https://azure.microsoft.com/en-us/support/legal/sla/summary/",
+        "notes": null,
+        "history": null,
+        "category": "cost",
+        "q_type": "basic",
+        "misc": null,
+        "timestamp": "2022-07-05 13:03:57"
+    },
+    {
+        "id": 2210,
         "q": "Your company plans to purchase an Azure subscription.\nThe company's support policy states that the Azure environment must provide an option to access support engineers by phone or email.\nYou need to recommend which support plan meets the support policy requirement.\n\nSolution: Recommend a Basic support plan.\nDoes this meet the goal?",
         "options": {
             "Yes": null,
@@ -3865,11 +3657,10 @@
         "category": "cost",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:42",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:57"
     },
     {
-        "id": 211,
+        "id": 2211,
         "q": "Your company plans to purchase an Azure subscription.\nThe company's support policy states that the Azure environment must provide an option to access support engineers by phone or email.\nYou need to recommend which support plan meets the support policy requirement.\n\nSolution: Recommend a Standard support plan.\nDoes this meet the goal?",
         "options": {
             "Yes": true,
@@ -3882,11 +3673,10 @@
         "category": "cost",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:42",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:57"
     },
     {
-        "id": 212,
+        "id": 2212,
         "q": "Your company plans to purchase an Azure subscription.\nThe company's support policy states that the Azure environment must provide an option to access support engineers by phone or email.\nYou need to recommend which support plan meets the support policy requirement.\n\nSolution: Recommend a Premier support plan.\nDoes this meet the goal?",
         "options": {
             "Yes": true,
@@ -3899,11 +3689,10 @@
         "category": "cost",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:42",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:57"
     },
     {
-        "id": 213,
+        "id": 2213,
         "q": "The company currently has a Basic support plan.\nYou need to recommend a new support plan for the company. The solution must minimize costs.\n\nWhich support plan should you recommend?",
         "options": {
             "Premier": true,
@@ -3918,11 +3707,10 @@
         "category": "cost",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:42",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:57"
     },
     {
-        "id": 214,
+        "id": 2214,
         "q": "Select all True statements",
         "options": {
             "Most Azure services are introduced in private preview before being introduced to public preview, and then in general availability": true,
@@ -3936,11 +3724,10 @@
         "category": "cost",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:42",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:57"
     },
     {
-        "id": 215,
+        "id": 2215,
         "q": "What is required to use Azure Cost Management?",
         "options": {
             "a Dev/Test subscription": null,
@@ -3955,11 +3742,10 @@
         "category": "cost",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:42",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:57"
     },
     {
-        "id": 216,
+        "id": 2216,
         "q": "Fill in the blank.  Your Azure trial account expired last week. You are now unable to __________",
         "options": {
             "Create additional Azure AD users": null,
@@ -3974,11 +3760,10 @@
         "category": "cost",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:42",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:57"
     },
     {
-        "id": 217,
+        "id": 2217,
         "q": "Your company plans to purchase an Azure subscription.\nThe company's support policy states that the Azure environment must provide an option to access support engineers by phone or email.\nYou need to recommend which support plan meets the support policy requirement.\n\nSolution: Recommend a Professional Direct support plan.\nDoes this meet the goal?",
         "options": {
             "Yes": true,
@@ -3991,11 +3776,10 @@
         "category": "cost",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:42",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:57"
     },
     {
-        "id": 218,
+        "id": 2218,
         "q": "Your company has a Software Assurance agreement that includes Microsoft SQL Server licenses.\nYou plan to deploy SQL Server on Azure virtual machines.\nWhat should you do to minimize licensing costs for the deployment?",
         "options": {
             "Deallocate the virtual machines during off hours.": null,
@@ -4010,11 +3794,10 @@
         "category": "cost",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:42",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:57"
     },
     {
-        "id": 219,
+        "id": 2219,
         "q": "Your company has 10 departments.\nThe company plans to implement an Azure environment.\nYou need to ensure that each department can use a different payment option for the Azure services it consumes.\nWhat should you create for each department?",
         "options": {
             "a reservation": null,
@@ -4029,11 +3812,10 @@
         "category": "cost",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:42",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:57"
     },
     {
-        "id": 220,
+        "id": 2220,
         "q": "Select all True statements",
         "options": {
             "An Azure Free account has a spending limit": true,
@@ -4047,11 +3829,10 @@
         "category": "cost",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:42",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:57"
     },
     {
-        "id": 221,
+        "id": 2221,
         "q": "Select all True statements",
         "options": {
             "An Azure service in private preview is released to all Azure customers": null,
@@ -4065,11 +3846,10 @@
         "category": "cost",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:42",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:57"
     },
     {
-        "id": 222,
+        "id": 2222,
         "q": "Select all True statements",
         "options": {
             "With a consumption-based plan, you pay a fixed rate for all data sent to of from virtual machines hosted in the cloud": null,
@@ -4083,11 +3863,10 @@
         "category": "cost",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:42",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:57"
     },
     {
-        "id": 223,
+        "id": 2223,
         "q": "Select all True statements",
         "options": {
             "The cost of Azure resources can vary between regions": true,
@@ -4101,11 +3880,10 @@
         "category": "cost",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:42",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:57"
     },
     {
-        "id": 224,
+        "id": 2224,
         "q": "Fill in the blank.  You have an application that is comprised of an Azure web app that has a Service Level Agreement (SLA) of 99.95 percent and an Azure SQL database that has an SQL of 99.99 percent.  The composite SQL for the application is _______ ",
         "options": {
             "the product of both SLAs, which is 99.94 percent": true,
@@ -4120,11 +3898,10 @@
         "category": "cost",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:42",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:57"
     },
     {
-        "id": 225,
+        "id": 2225,
         "q": "Select all True statements",
         "options": {
             "The Service Level Agreement (SLA) guaranteed uptime for paid Azure services is at least 99.9 percent": null,
@@ -4138,11 +3915,10 @@
         "category": "cost",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:42",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:57"
     },
     {
-        "id": 226,
+        "id": 2226,
         "q": "Which statement accurately describes the Modern Lifecycle Policy for Azure services?",
         "options": {
             "Microsoft provides mainstream support for a service for five years.": null,
@@ -4157,11 +3933,10 @@
         "category": "cost",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:42",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:57"
     },
     {
-        "id": 227,
+        "id": 2227,
         "q": "You need to request that Microsoft increase a subscription quota limit for your company.\nWhich blade should you use from the Azure portal?",
         "options": {
             "No idea": null,
@@ -4174,11 +3949,10 @@
         "category": "cost",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:42",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:57"
     },
     {
-        "id": 228,
+        "id": 2228,
         "q": "Fill in the blank.  You can use _____________ in Azure to send email alerts when the cost of the current billing period for an Azure subscription exceeds a specific limit",
         "options": {
             "Advisor recommendations": null,
@@ -4193,11 +3967,10 @@
         "category": "test",
         "q_type": "basic",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:42",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:57"
     },
     {
-        "id": 229,
+        "id": 2229,
         "q": "Select all True Statements",
         "options": {
             "From the Azure portal, you can distinguish between services that are enerally available and services that are in public preview": true,
@@ -4211,11 +3984,10 @@
         "category": "test",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:42",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:57"
     },
     {
-        "id": 230,
+        "id": 2230,
         "q": "Select all True Statements",
         "options": {
             "When using an Azure ExpressRoute connection, inbound data traffic from an on-premises network to Azure is always free": true,
@@ -4229,7 +4001,6 @@
         "category": "test",
         "q_type": "multi",
         "misc": null,
-        "timestamp": "2022-07-08 10:18:42",
-        "__initialised__": true
+        "timestamp": "2022-07-05 13:03:57"
     }
 ]
