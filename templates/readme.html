@@ -1,0 +1,126 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+<h2>Donation</h2>
+<blockquote>
+<p>If you think that any information you obtained here is worth of some money and are willing to pay for it, feel free to send any amount through paypal.</p>
+</blockquote>
+<table>
+<th>Paypal</th>
+<th>Vimeo</th>
+<tr>
+    <td>
+        <a href="https://paypal.me/jameskeating1509">
+        <img src="https://raw.githubusercontent.com/stefan-niedermann/paypal-donate-button/master/paypal-donate-button.png" height="80" width="160" alt="Donate with PayPal" />
+        </a>
+    </td>
+    <td> <a href="https://www.venmo.com/tonya-keating">
+        <img src="https://raw.githubusercontent.com/rob3rt-keating/Q/master/static/images/venmo.png" height="60" width="60" alt="Donate with Venmo" />
+        </a> </td>
+
+</table>
+    <br>
+<h1>Q</h1>
+<p><br></p>
+<p>Q is a Python web application designed to help you practice for the AZ-900 exam.</p>
+
+        <br>
+
+<h2>Installation</h2>
+<p>(assuming you have Python 3.7 or greater already installed)</p>
+<pre>
+1) Download the application (.zip) file, and unpack it in a directory of your choosing.
+
+2) Create a virtual environment.
+   <code>python -m venv venv</code>
+
+3) Next activate the virtual environment
+   <code>.\venv\Scripts\activate</code>
+
+4) Install the python dependencies
+    <code>pip -install -r requirements</code>
+
+5) Run the application
+    <code>python server.py</code>
+
+6) Navigate to http://localhost:8080</pre>
+
+<h2>Actual  install commands (if you get stuck)</h2>
+<table border="1">
+    <tr>
+        <td>
+
+
+<p>
+(venv) PS C:\Users\x\Downloads&gt; cd .\Q-master\
+(venv) PS C:\Users\x\Downloads\Q-master&gt; cd .\Q-master\
+(venv) PS C:\Users\x\Downloads\Q-master\Q-master&gt;ls</p>
+<pre>Directory: C:\Users\x\Downloads\Q-master\Q-master
+</pre>
+<pre>Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          7/4/2022   3:00 PM                static
+d-----          7/4/2022   3:00 PM                templates
+-a----          7/4/2022   3:00 PM         270913 database.py
+-a----          7/4/2022   3:00 PM          11433 main.py
+-a----          7/4/2022   3:00 PM         278528 questions.db
+-a----          7/4/2022   3:00 PM         293509 questions.json
+-a----          7/4/2022   3:00 PM           1068 requirements.txt
+-a----          7/4/2022   3:00 PM            149 server.py
+-a----          7/4/2022   3:00 PM        1101312 sqlite3.exe</pre>
+<pre>PS C:\Users\x\Downloads\Q-master\Q-master&gt; python -m venv venv
+PS C:\Users\x\Downloads\Q-master\Q-master&gt; pip install -r .\requirements.txt
+Collecting anyio==3.6.1
+  Using cached anyio-3.6.1-py3-none-any.whl (80 kB)
+Collecting asgiref==3.5.2
+  Using cached asgiref-3.5.2-py3-none-any.whl (22 kB)
+[excerpt...]</pre>
+<pre>PS C:\Users\x\Downloads\Q-master\Q-master&gt; .\venv\Scripts\activate
+(venv) PS C:\Users\x\Downloads\Q-master\Q-master&gt; python.exe .\server.py</pre>
+<pre>Running Q
+Started server process 32316
+Waiting for application startup.
+Application startup complete.
+Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+</pre>
+        </td>
+    </tr>
+</table>
+
+    <br>
+
+<h2>Using Q</h2>
+<p>From the main menu, select [START].
+By default, questions are displayed in sequential order. Use [RANDOMIZE] to mix things up.
+You can also [LIMIT # of QUESTIONS]</p>
+<ul>
+<li>If you do not select a category, all default categories will be used.</li>
+</ul>
+<p>[VIEW ANSWER] - This will automatically score a FAIL for the question as well has display EXPLAIN, URL, custom NOTES.</p>
+<p>[NEXT] - This will invisibly grade the question and advance to the next question.</p>
+<p>After all the questions have been answered or skipped, the RESULTS page will be displayed showing success/fail counts per catagory.  If you hover over the success or fail counts, question IDs will be displayed.</p>
+<ul>
+<li>You can use the [SEARCH] on the menu bar to view questions without taking an exam</li>
+</ul>
+
+        <br>
+
+<h2>Adding / Editing Questions</h2>
+<p>From the [TOOLS] menu, select [EDITOR].</p>
+<p>This page is used for both editing existing questions and adding new ones.</p>
+<p>TO EDIT: Enter the Question ID and click [Search]</p>
+<p>To CREATE:
+Question ID - Leave blank, SQL is set to auto-increment.<br />
+* Newly created questions will have a starting ID of 1001.</p>
+<p>BASIC / MULTI - Sets the question type. Basic: Only 1 answer.  Multi: 2 or more correct answers</p>
+<p>ANSWERS - Denote correct answers with a checkmark.</p>
+<p>EXPLAIN - Expandable window that accepts carriage returns (new lines).  No font formatting.</p>
+<p>EXPLAIN_URL: Single link only. ** Future improvement: convert to a List-object</p>
+<p>NOTES - During the practice exam, you can add notes.  Notes are visible after [View Answer] is pressed.</p>
+<p>HISTORY - This field will keep track, over multiple exams, of your progress for each question. </p>
+<p>CATEGORY - The options are: cost, services, core, security and cost. Your new questions will be co-mingled with the base-installed questions, by category.
+* You can create a custom name which you can access on the START page by selecting CUSTOM.  This will display all question with an ID &gt; 1000.</p>
+
+    </div>
+{% endblock content %}
