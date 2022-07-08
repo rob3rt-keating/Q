@@ -482,3 +482,10 @@ async def edit(request: Request, form: QuestionBM = Depends(QuestionBM.as_form))
     ret_val = f'Added new item - {info.lastrowid}'
 
     return TEMPLATES.TemplateResponse("editor.html", {"request": request, 'memo': ret_val})
+
+
+@app.get('/help')
+def help(request: Request):
+    """ Info / Donation / Help"""
+
+    return TEMPLATES.TemplateResponse("readme.html", {"request": request})

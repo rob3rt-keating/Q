@@ -17,9 +17,11 @@
 
 </table>
 
-# Q
+# Q 
+<br>
 
-Q is a Python web application designed to help you practice for the AZ-900 exam
+Q is a Python web application designed to help you practice for the AZ-900 exam.@Spider1
+
 
 ## Installation
 
@@ -71,15 +73,15 @@ d-----          7/4/2022   3:00 PM                templates
 -a----          7/4/2022   3:00 PM        1101312 sqlite3.exe
 
 
-(venv) PS C:\Users\x\Downloads\Q-master\Q-master> python -m venv venv
-(venv) PS C:\Users\x\Downloads\Q-master\Q-master> pip install -r .\requirements.txt
+PS C:\Users\x\Downloads\Q-master\Q-master> python -m venv venv
+PS C:\Users\x\Downloads\Q-master\Q-master> pip install -r .\requirements.txt
 Collecting anyio==3.6.1
   Using cached anyio-3.6.1-py3-none-any.whl (80 kB)
 Collecting asgiref==3.5.2
   Using cached asgiref-3.5.2-py3-none-any.whl (22 kB)
 [excerpt...]
 
-(venv) PS C:\Users\x\Downloads\Q-master\Q-master> .\venv\Scripts\activate
+PS C:\Users\x\Downloads\Q-master\Q-master> .\venv\Scripts\activate
 (venv) PS C:\Users\x\Downloads\Q-master\Q-master> python.exe .\server.py
 
 Running Q
@@ -88,13 +90,53 @@ Waiting for application startup.
 Application startup complete.
 Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
 ```
+## Using Q
+
+From the main menu, select [START].
+By default, questions are displayed in sequential order. Use [RANDOMIZE] to mix things up.
+You can also [LIMIT # of QUESTIONS]
+
+* If you do not select a category, all default categories will be used.
+
+[VIEW ANSWER] - This will automatically score a FAIL for the question as well has display EXPLAIN, URL, custom NOTES.
+
+[NEXT] - This will invisibly grade the question and advance to the next question.
+
+After all the questions have been answered or skipped, the RESULTS page will be displayed showing success/fail counts per catagory.  If you hover over the success or fail counts, question IDs will be displayed.
+
+* You can use the [SEARCH] on the menu bar to view questions without taking an exam
+
 
 ## Adding / Editing Questions
 
-The manual method 
-Step 1 - Open the 'questions.json' file.Edit any question you like and save the json file.
-Step 2 - In the UI, select TOOLS/RESTORE Database.  This will delete the .db file and create a new .db file and populate it with the contents of the 'questions.json' file.
+From the [TOOLS] menu, select [EDITOR].
 
-You can use this approach to ADD new questions. ** Make sure NOT to duplicate the ID number
+This page is used for both editing existing questions and adding new ones.
 
-A UI-based editor is currently being developed.
+TO EDIT: Enter the Question ID and click [Search]
+
+To CREATE:
+Question ID - Leave blank, SQL is set to auto-increment.  
+* Newly created questions will have a starting ID of 1001.
+
+BASIC / MULTI - Sets the question type. Basic: Only 1 answer.  Multi: 2 or more correct answers
+
+ANSWERS - Denote correct answers with a checkmark.
+
+EXPLAIN - Expandable window that accepts carriage returns (new lines).  No font formatting.
+
+EXPLAIN_URL: Single link only. ** Future improvement: convert to a List-object
+
+NOTES - During the practice exam, you can add notes.  Notes are visible after [View Answer] is pressed.
+
+HISTORY - This field will keep track, over multiple exams, of your progress for each question. 
+
+CATEGORY - The options are: cost, services, core, security and cost. Your new questions will be co-mingled with the base-installed questions, by category.
+* You can create a custom name which you can access on the START page by selecting CUSTOM.  This will display all question with an ID > 1000.
+
+with open('readme.md', 'r') as f:
+    text = f.read()
+    html= markdown.markdown(text)
+
+with open('reaadme.html', 'w') as f:
+    f.write(html)
