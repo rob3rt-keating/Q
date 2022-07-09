@@ -28,7 +28,7 @@
         <br>
 
 <h2>Installation</h2>
-<p>(assuming you have Python 3.7 or greater already installed)</p>
+<p>(assuming you have Python 3.5 or greater already installed)</p>
 <pre>
 1) Download the application (.zip) file, and unpack it in a directory of your choosing.
 
@@ -52,41 +52,53 @@
         <td>
 
 
-<p>
-(venv) PS C:\Users\x\Downloads&gt; cd .\Q-master\
-(venv) PS C:\Users\x\Downloads\Q-master&gt; cd .\Q-master\
-(venv) PS C:\Users\x\Downloads\Q-master\Q-master&gt;ls</p>
-<pre>Directory: C:\Users\x\Downloads\Q-master\Q-master
-</pre>
-<pre>Mode                 LastWriteTime         Length Name
-----                 -------------         ------ ----
-d-----          7/4/2022   3:00 PM                static
-d-----          7/4/2022   3:00 PM                templates
--a----          7/4/2022   3:00 PM         270913 database.py
--a----          7/4/2022   3:00 PM          11433 main.py
--a----          7/4/2022   3:00 PM         278528 questions.db
--a----          7/4/2022   3:00 PM         293509 questions.json
--a----          7/4/2022   3:00 PM           1068 requirements.txt
--a----          7/4/2022   3:00 PM            149 server.py
--a----          7/4/2022   3:00 PM        1101312 sqlite3.exe</pre>
-<pre>PS C:\Users\x\Downloads\Q-master\Q-master&gt; python -m venv venv
-PS C:\Users\x\Downloads\Q-master\Q-master&gt; pip install -r .\requirements.txt
-Collecting anyio==3.6.1
-  Using cached anyio-3.6.1-py3-none-any.whl (80 kB)
-Collecting asgiref==3.5.2
-  Using cached asgiref-3.5.2-py3-none-any.whl (22 kB)
-[excerpt...]</pre>
-<pre>PS C:\Users\x\Downloads\Q-master\Q-master&gt; .\venv\Scripts\activate
-(venv) PS C:\Users\x\Downloads\Q-master\Q-master&gt; python.exe .\server.py</pre>
-<pre>Running Q
-Started server process 32316
-Waiting for application startup.
-Application startup complete.
-Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
-</pre>
-        </td>
-    </tr>
-</table>
+    <pre>
+        <div class="container">
+    (venv) PS C:\Users\x\Downloads&gt; <b>cd .\Q-master\</b>
+    (venv) PS C:\Users\x\Downloads\Q-master&gt; <b>cd .\Q-master\</b>
+    (venv) PS C:\Users\x\Downloads\Q-master\Q-master&gt;<b>ls</b>
+            <br>
+            <div class="p-3 mb-2 bg-light text-dark">
+    Directory: C:\Users\x\Downloads\Q-master\Q-master
+
+    Mode                 LastWriteTime         Length Name
+    ----                 -------------         ------ ----
+    d-----          7/4/2022   3:00 PM                static
+    d-----          7/4/2022   3:00 PM                templates
+    -a----          7/4/2022   3:00 PM         270913 database.py
+    -a----          7/4/2022   3:00 PM          11433 main.py
+    -a----          7/4/2022   3:00 PM         278528 questions.db
+    -a----          7/4/2022   3:00 PM         293509 questions.json
+    -a----          7/4/2022   3:00 PM           1068 requirements.txt
+    -a----          7/4/2022   3:00 PM            149 server.py
+    -a----          7/4/2022   3:00 PM        1101312 sqlite3.exe
+                </div>
+            <br>
+    PS C:\Users\x\Downloads\Q-master\Q-master&gt; <b>python -m venv venv</b>
+    PS C:\Users\x\Downloads\Q-master\Q-master&gt; <b>pip install -r .\requirements.txt</b>
+
+    <div class="p-3 mb-2 bg-light text-dark">
+    Collecting anyio==3.6.1
+      Using cached anyio-3.6.1-py3-none-any.whl (80 kB)
+    Collecting asgiref==3.5.2
+      Using cached asgiref-3.5.2-py3-none-any.whl (22 kB)
+    [excerpt...]
+    </div>
+            <br>
+    PS C:\Users\x\Downloads\Q-master\Q-master&gt;<b> .\venv\Scripts\activate</b>
+            (venv) PS C:\Users\x\Downloads\Q-master\Q-master&gt; <b>python.exe .\server.py</b>
+            <br>
+            <div class="p-3 mb-2 bg-light text-dark">
+    Running Q
+    Started server process 32316
+    Waiting for application startup.
+    Application startup complete.
+    Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+        </div>
+    </pre>
+            </td>
+        </tr>
+    </table>
 
     <br>
 
