@@ -134,9 +134,13 @@ HISTORY - This field will keep track, over multiple exams, of your progress for 
 CATEGORY - The options are: cost, services, core, security and cost. Your new questions will be co-mingled with the base-installed questions, by category.
 * You can create a custom name which you can access on the START page by selecting CUSTOM.  This will display all question with an ID > 1000.
 
-with open('readme.md', 'r') as f:
-    text = f.read()
-    html= markdown.markdown(text)
+## Learning
 
-with open('reaadme.html', 'w') as f:
-    f.write(html)
+* LABS
+  - This is a list of the official labs used in the Microsoft Official Training (MOC).  If you complete these labs, you will have the required knowledge to pass UI/Procedural questions on the exam.
+
+* MS Training
+  - Microsoft also offers training (MOC).  You can choose Instructor led, or self-paced.  Here is the free courseware you will need.
+
+* MS Exam Experience
+  - Ever take a MS exam? Or maybe it's been a long time since you did take a MS exam, here is the opportunity to sit in a mock exam so you will not be surprised during the real exam
