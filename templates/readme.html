@@ -4,7 +4,7 @@
 <div class="container">
     <h2>Donation</h2>
 <blockquote>
-    <p>If you feel this application will help you on your learning path, feel free to send any amount through paypal.</p>
+    <p>If you feel this application will help you on your learning path, feel free to send you feel appropriate. Thank you!</p>
 </blockquote>
 
 <table>
@@ -29,6 +29,21 @@
     <p>Q is a Python web application designed to help you practice for the AZ-900 exam.</p>
 
     <br>
+<div class="container">
+    <h5> Features</h5>
+    <ul style="list-style-type:square">
+    <li>Real-time View Answers</li>
+        <li>Add additional NOTES to questions</li>
+        <li>Limit the number of questions</li>
+        <li>Control the Categories you are tested on</li>
+        <li>History - Stats on the question you have seen</li>
+        <li>Editor - Create and Edit your own questions</li>
+        <li>Backup and Restore functionality</li>
+        <li>Quiz results - Highlights focus areas</li>
+        <li>SEARCH - Get a question by number quickly</li>
+    </ul>
+</div>
+<br>
 
     <h2>Installation</h2>
     <p>(assuming you have Python 3.5 or greater already installed)</p>
@@ -136,10 +151,18 @@ Question ID - Leave blank, SQL is set to auto-increment.<br />
 <p>EXPLAIN_URL: Single link only. ** Future improvement: convert to a List-object</p>
 <p>NOTES - During the practice exam, you can add notes.  Notes are visible after [View Answer] is pressed.</p>
 <p>HISTORY - This field will keep track, over multiple exams, of your progress for each question. </p>
-<p>CATEGORY - The options are: cost, services, core, security and cost. Your new questions will be co-mingled with the base-installed questions, by category.
-* You can create a custom name which you can access on the START page by selecting CUSTOM.  This will display all question with an ID &gt; 1000.</p>
+<pre>CATEGORY - The options are: cost, services, core, security and cost.
+    Your new questions will be co-mingled with the base-installed questions, by category.
+    * You can create a custom name which you can access on the START page by selecting CUSTOM.
+    This will display all question with an ID &gt; 1000.</pre>
 
+    <div class="p-3 mb-2 bg-light text-dark">
+To save your new questions, [TOOLS] select [BACKUP DATABASE].
+This will overwrite the 'questions.json' file. Don't worry, there is a backup of the original questions in the BAK directory
+    </div>
 
+    <br>
+    <br>
 <h2>Learning</h2>
 <p>
 * LABS

@@ -1,6 +1,6 @@
 
 ## Donation
-> If you feel this application will help you on your learning path, feel free to send any amount through paypal.
+> If you feel this application will help you on your learning path, feel free to send any amount you feel appropriate. Thank you!
 
 <table>
 <th>Paypal</th>
@@ -18,6 +18,21 @@
 </table>
 
 # Q 
+
+Q is a Python web application designed to help you practice for the AZ-900 exam.@Spider1
+
+
+### Features
+* Real-time View Answers
+* Add additional NOTES to questions
+* Limit the number of questions
+* Control the Categories you are tested on 
+* History - Stats on the question you have seen
+* Editor - Create and Edit your own questions
+* Backup and Restore functionality
+* Quiz results - Highlights focus areas
+* SEARCH - Get a question by number quickly
+
 <br>
 
 Q is a Python web application designed to help you practice for the AZ-900 exam.@Spider1
@@ -134,6 +149,9 @@ HISTORY - This field will keep track, over multiple exams, of your progress for 
 CATEGORY - The options are: cost, services, core, security and cost. Your new questions will be co-mingled with the base-installed questions, by category.
 * You can create a custom name which you can access on the START page by selecting CUSTOM.  This will display all question with an ID > 1000.
 
+> To save your new questions, [TOOLS] select [BACKUP DATABASE].
+> 
+> This will overwrite the 'questions.json' file. Don't worry, there is a backup of the original questions in the BAK directory
 ## Learning
 
 * LABS
