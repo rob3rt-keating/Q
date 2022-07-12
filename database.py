@@ -34,10 +34,10 @@ def create_table(filename=''):
     conn.close()
 
 
-def write_to_json_file(json_file='', ):
-    """ Get questions, write to json file"""
+def write_to_json_file(json_file=''):
+    """ Get questions, write to new json file"""
 
-    # | Delete questions.JSON
+    # | Delete questions.json file
     if os.path.exists(f'{BASE_PATH}/questions.json'):
         os.remove(f'{BASE_PATH}/questions.json')
 

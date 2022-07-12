@@ -4,7 +4,6 @@ Date: 7/1/2022
 """
 import datetime
 import json
-import random
 import collections
 from pathlib import Path
 from fastapi import FastAPI, Request, Form, Depends
@@ -15,6 +14,7 @@ from helpers import Question, QuestionBM
 from fastapi.templating import Jinja2Templates
 from fastapi.staticfiles import StaticFiles
 from database import make_db_from_json, write_to_json_file
+from helpers import Bank
 
 BASE_PATH = Path(__file__).resolve().parent
 
@@ -23,46 +23,46 @@ TEMPLATES = Jinja2Templates(directory=str(BASE_PATH / "templates"))
 app.mount("/static", StaticFiles(directory=f"{BASE_PATH}/static"), name="static")
 
 
-class Bank:
-    """ Queue for cycling through questions"""
-
-    scores = {}
-
-    def __init__(self, ids=None, cmd=''):
-        self._ids = ids
-        self._cmd = cmd
-
-    def get_db_ids(self, cmd, shuffle, limit):
-        conn = sqlite3.connect(f'{BASE_PATH}/questions.db')
-        cursor = conn.execute(cmd)
-        self._ids = [idx[0] for idx in cursor]
-
-        if shuffle is True:
-            random.shuffle(self._ids)
-
-        if limit:
-            self._ids = self._ids[:int(limit)]
-
-        # self._ids = self._ids
-
-    def list_ids(self):
-        return self._ids
-
-    def remove_id(self, value):
-        self._ids.remove(value)
-
-    def get_next(self):
-        if len(self._ids) == 0:
-            return 0
-        val = self._ids[0]
-        self.remove_id(val)
-        return val
-
-    def add_score(self, value):
-        self.scores = self.scores | value
-
-    def get_scores(self):
-        return self.scores
+# class Bank:
+#     """ Queue for cycling through questions"""
+#
+#     scores = {}
+#
+#     def __init__(self, ids=None, cmd=''):
+#         self._ids = ids
+#         self._cmd = cmd
+#
+#     def get_db_ids(self, cmd, shuffle, limit):
+#         conn = sqlite3.connect(f'{BASE_PATH}/questions.db')
+#         cursor = conn.execute(cmd)
+#         self._ids = [idx[0] for idx in cursor]
+#
+#         if shuffle is True:
+#             random.shuffle(self._ids)
+#
+#         if limit:
+#             self._ids = self._ids[:int(limit)]
+#
+#         # self._ids = self._ids
+#
+#     def list_ids(self):
+#         return self._ids
+#
+#     def remove_id(self, value):
+#         self._ids.remove(value)
+#
+#     def get_next(self):
+#         if len(self._ids) == 0:
+#             return 0
+#         val = self._ids[0]
+#         self.remove_id(val)
+#         return val
+#
+#     def add_score(self, value):
+#         self.scores = self.scores | value
+#
+#     def get_scores(self):
+#         return self.scores
 
 
 bank = Bank()
@@ -79,6 +79,9 @@ async def home(request: Request):
 async def home(request: Request, idx: str = Form(None)):
     """ landing page"""
 
+    if idx is None:
+        return
+
     data = get_questions(idx)
 
     return TEMPLATES.TemplateResponse(
@@ -92,7 +95,7 @@ async def home(request: Request, idx: str = Form(None)):
 
 @app.post("/id_get")
 async def get_id(request: Request, idx: str = Form(None)):
-    """ landing page"""
+    """ post - landing page"""
 
     data = get_questions(idx)
 
@@ -101,7 +104,7 @@ async def get_id(request: Request, idx: str = Form(None)):
 
 @app.get("/id/{idx}")
 async def home(request: Request, idx: str):
-    """ landing page"""
+    """ git question by id landing page"""
 
     data = get_questions(idx)
 
@@ -112,9 +115,6 @@ async def home(request: Request, idx: str):
                        "explain_url": data[0].get('explain_url'),
                        'notes': data[0]['notes'].split('~') if data[0]['notes'] is not None else '',
                        })
-
-
-
 
 
 def get_stats(data):
@@ -185,10 +185,10 @@ async def grade_it(request: Request, idx: str = Form(None), chk: List = Form(Non
         frm = await request.form()
         ans = dict(frm._list)
 
-        ignore = ['submit_view', 'submit_nxt', 'idx', 'q_type', 'ans']
+        ignore = ['submit_view', 'submit_nxt', 'idx', 'q_type', 'ans', 'viewed']
 
         for itm in ignore:
-            if ans.get(itm, False):
+            if ans.get(itm, False) or ans.get(itm, False) == '':
                 del ans[itm]
 
         correct = options
@@ -245,7 +245,7 @@ def get_questions(idx=''):
 
     cmd = f'SELECT * from tbl_questions where id = {idx}'
 
-    if idx == '0':
+    if idx == 0:
         cmd = 'SELECT * from tbl_questions'
 
     conn = sqlite3.connect(f'{BASE_PATH}/questions.db')
@@ -311,6 +311,8 @@ def start_quiz(request: Request):
 async def start_quiz(request: Request, limit: str = Form(None), shuffle: bool = Form(False)):
     """ Using the config inputs, start the quiz"""
 
+    bank.reset()
+
     form_data = await request.form()
 
     cat_lst = [itm for itm in form_data]
@@ -367,13 +369,21 @@ def gen_category_stats(data):
     conn = sqlite3.connect(f'{BASE_PATH}/questions.db')
 
     # | Build category list of seen questions
+    # | -- Tuple issue if only single question
     cmd = f'Select DISTINCT(category) from tbl_questions where id in {tuple(data.keys())}'
+
+    if len(data.keys()) == 1:
+        cmd = f'Select DISTINCT(category) from tbl_questions where id = {list(data.keys())[0]}'
+
     print(cmd)
     cursor = conn.execute(cmd)
     categories = [cat[0] for cat in cursor]
 
     # | get question categories from current quiz
     cmd = f'Select id, category from tbl_questions where id in {tuple(data.keys())}'
+
+    if len(data.keys()) == 1:
+        cmd = f'Select id, category from tbl_questions where id = {list(data.keys())[0]}'
     cursor = conn.execute(cmd)
 
     # | Merge categories with question id and grade: 'id': {cat, grade}
@@ -384,12 +394,14 @@ def gen_category_stats(data):
         q_a_dict[str(idx)] = {'cat': val, 'grade': data.get(str(idx))}
 
     cat_subtotals = {}
-    passing_cnt = 0
-    failing_cnt = 0
-    passing_q = []
-    failing_q = []
 
     for category in categories:
+
+        passing_cnt = 0
+        failing_cnt = 0
+        passing_q = []
+        failing_q = []
+
         for line in q_a_dict:
             cat = q_a_dict[line].get('cat')
             grade = q_a_dict[line].get('grade')
@@ -431,22 +443,23 @@ def restore_db(request: Request):
 def editor_home(request: Request):
     """ Edit landing page"""
 
-    fields = ['idx',
-              'q_type',
-              'q',
-              'options1',
-              'options2',
-              'options3',
-              'options4',
-              'options5',
-              'explain',
-              'explain_url',
-              'notes',
-              'history',
-              'misc',
-              'category']
+    # fields = ['idx',
+    #           'q_type',
+    #           'q',
+    #           'options1',
+    #           'options2',
+    #           'options3',
+    #           'options4',
+    #           'options5',
+    #           'explain',
+    #           'explain_url',
+    #           'notes',
+    #           'history',
+    #           'misc',
+    #           'category']
 
-    return TEMPLATES.TemplateResponse("editor.html", {"request": request, 'fields': fields})
+    # return TEMPLATES.TemplateResponse("editor.html", {"request": request, 'fields': fields})
+    return TEMPLATES.TemplateResponse("editor.html", {"request": request})
 
 
 @app.post('/edit')
@@ -485,7 +498,7 @@ async def edit(request: Request, form: QuestionBM = Depends(QuestionBM.as_form))
 
 
 @app.get('/help')
-def help(request: Request):
+def help_home(request: Request):
     """ Info / Donation / Help"""
 
     return TEMPLATES.TemplateResponse("readme.html", {"request": request})

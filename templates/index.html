@@ -49,12 +49,12 @@
             <div class="card" style="width: 10rem;">
                 <div class="card-body">
                     {% if status == 'correct' %}
-                    {% set colar = 'green' %}
+                    {% set colour = 'green' %}
                     {% else %}
-                    {% set colar = 'red' %}
+                    {% set colour = 'red' %}
                     {% endif %}
 
-                    <h5 class="card-title {{colar}}">{{status  | capitalize }} {{data.id }}</h5>
+                    <h5 class="card-title {{colour}}">{{status  | capitalize }} {{data.id }}</h5>
                 </div>
             </div>
 
@@ -124,12 +124,13 @@
                     {% endfor %}
 
                 {% endif %}
-<!--        Buttons-->
+<!--            BUTTONS-->
 <!--            ANSWER-->
                 <input type="text" name="ans" id="ans" hidden value="{{ correct }}">
                 <input type="text" name="q_type" id="q_type" hidden value="{{ data.q_type }}">
                 <input type="text" name="viewed" id="viewed" hidden value="{{ viewed }}">
 
+                {% if not searched %}
                 <div class=" mt-3">
                     <button class="btn btn-outline-info btn-sm" name="submit_view" id="idx" value="{{ data.id }}" type="submit">View Answer</button>
                 </div>
@@ -137,6 +138,7 @@
                 <div class="d-sm-inline-block">
                     <button class="btn btn-primary btn-sm" name="submit_nxt" id="idx_nxt" value="{{ data.id }}" type="submit">Next</button>
                 </div>
+                {% endif %}
             </form>
         </div>
 
@@ -168,15 +170,11 @@
             <p class="card-text" ></p>
             {% if notes != none %}
 
-            {% for msg in notes %}
+                {% for msg in notes %}
 
-            <p style="white-space: pre-wrap;"> {{ msg }}</p>
+                <p style="white-space: pre-wrap;"> {{ msg }}</p>
 
-        {#    <ul>
-                <li>{{ msg }}</li>
-            </ul>
-        #}
-            {% endfor %}
+                {% endfor %}
             {% endif %}
 
             <form action="/add_note" method="post" id="add_msg">
@@ -192,8 +190,6 @@
         </div>
 
       {% endif %}
-
-  {#    <div class="col"></div> #}
 
 </div>
 
@@ -213,24 +209,19 @@
         var data = JSON.parse($('#ans').val());
         var q_type = $('#q_type').val();
 
-        // Select
+        // Select-Match
         if (q_type == "match") {
 
             for ( let x in data ) {
                 $('option[name="' + x + '"][value="' +  data[x] + '"]').prop("selected", true);
                 };
-
-            //$('option[name="' + data.os + '"][value="' +  data[0] + '"]').prop("selected", true);
-            //$('option[name="Azure Virtual Machines"][value="IaaS"]').prop("selected", true);
         };
 
         if (q_type == "basic") {
-            //alert(q_type);
             $('input[type="radio"][name="rdo"][value="' +  data[0] + '"]').prop('checked', true);
         };
 
         if (q_type == "multi") {
-
             for ( var i = 0, l = data.length; i < l; i++ ) {
                 $('input[type="checkbox"][value="' +  data[i] + '"]').prop('checked', true);
             };

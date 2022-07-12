@@ -2,14 +2,16 @@
 
 {% block content %}
 <div class="container">
-<h2>Donation</h2>
+    <h2>Donation</h2>
 <blockquote>
-<p>If you think that any information you obtained here is worth of some money and are willing to pay for it, feel free to send any amount through paypal.</p>
+    <p>If you feel this application will help you on your learning path, feel free to send any amount through paypal.</p>
 </blockquote>
+
 <table>
-<th>Paypal</th>
-<th>Vimeo</th>
-<tr>
+    <th>Paypal</th>
+    <th>Vimeo</th>
+
+    <tr>
     <td>
         <a href="https://paypal.me/jameskeating1509">
         <img src="https://raw.githubusercontent.com/stefan-niedermann/paypal-donate-button/master/paypal-donate-button.png" height="80" width="160" alt="Donate with PayPal" />
@@ -18,18 +20,20 @@
     <td> <a href="https://www.venmo.com/tonya-keating">
         <img src="https://raw.githubusercontent.com/rob3rt-keating/Q/master/static/images/venmo.png" height="60" width="60" alt="Donate with Venmo" />
         </a> </td>
-
 </table>
+
     <br>
-<h1>Q</h1>
-<p><br></p>
-<p>Q is a Python web application designed to help you practice for the AZ-900 exam.</p>
+    <h1>Q</h1>
+    <br>
 
-        <br>
+    <p>Q is a Python web application designed to help you practice for the AZ-900 exam.</p>
 
-<h2>Installation</h2>
-<p>(assuming you have Python 3.5 or greater already installed)</p>
-<pre>
+    <br>
+
+    <h2>Installation</h2>
+    <p>(assuming you have Python 3.5 or greater already installed)</p>
+
+    <pre>
 1) Download the application (.zip) file, and unpack it in a directory of your choosing.
 
 2) Create a virtual environment.
@@ -44,21 +48,21 @@
 5) Run the application
     <code>python server.py</code>
 
-6) Navigate to http://localhost:8080</pre>
+6) Navigate to http://localhost:8080
+    </pre>
 
-<h2>Actual  install commands (if you get stuck)</h2>
-<table border="1">
+    <h2>Actual  install commands (if you get stuck)</h2>
+    <table border="1">
     <tr>
         <td>
-
-
-    <pre>
-        <div class="container">
+            <pre>
+                <div class="container">
     (venv) PS C:\Users\x\Downloads&gt; <b>cd .\Q-master\</b>
     (venv) PS C:\Users\x\Downloads\Q-master&gt; <b>cd .\Q-master\</b>
     (venv) PS C:\Users\x\Downloads\Q-master\Q-master&gt;<b>ls</b>
-            <br>
-            <div class="p-3 mb-2 bg-light text-dark">
+
+    <br>
+    <div class="p-3 mb-2 bg-light text-dark">
     Directory: C:\Users\x\Downloads\Q-master\Q-master
 
     Mode                 LastWriteTime         Length Name
@@ -72,8 +76,9 @@
     -a----          7/4/2022   3:00 PM           1068 requirements.txt
     -a----          7/4/2022   3:00 PM            149 server.py
     -a----          7/4/2022   3:00 PM        1101312 sqlite3.exe
-                </div>
-            <br>
+    </div>
+    <br>
+
     PS C:\Users\x\Downloads\Q-master\Q-master&gt; <b>python -m venv venv</b>
     PS C:\Users\x\Downloads\Q-master\Q-master&gt; <b>pip install -r .\requirements.txt</b>
 
@@ -84,26 +89,26 @@
       Using cached asgiref-3.5.2-py3-none-any.whl (22 kB)
     [excerpt...]
     </div>
-            <br>
+    <br>
     PS C:\Users\x\Downloads\Q-master\Q-master&gt;<b> .\venv\Scripts\activate</b>
             (venv) PS C:\Users\x\Downloads\Q-master\Q-master&gt; <b>python.exe .\server.py</b>
-            <br>
-            <div class="p-3 mb-2 bg-light text-dark">
+    <br>
+    <div class="p-3 mb-2 bg-light text-dark">
     Running Q
     Started server process 32316
     Waiting for application startup.
     Application startup complete.
     Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
-        </div>
+    </div>
     </pre>
-            </td>
-        </tr>
+
+        </td>
+    </tr>
     </table>
 
     <br>
-
-<h2>Using Q</h2>
-<p>From the main menu, select [START].
+    <h2>Using Q</h2>
+    <p>From the main menu, select [START].
 By default, questions are displayed in sequential order. Use [RANDOMIZE] to mix things up.
 You can also [LIMIT # of QUESTIONS]</p>
 <ul>
@@ -116,12 +121,12 @@ You can also [LIMIT # of QUESTIONS]</p>
 <li>You can use the [SEARCH] on the menu bar to view questions without taking an exam</li>
 </ul>
 
-        <br>
+<br>
 
 <h2>Adding / Editing Questions</h2>
 <p>From the [TOOLS] menu, select [EDITOR].</p>
 <p>This page is used for both editing existing questions and adding new ones.</p>
-<p>TO EDIT: Enter the Question ID and click [Search]</p>
+<p>TO EDIT: Enter the Question ID and click [Search] on page, NOT Titlebar</p>
 <p>To CREATE:
 Question ID - Leave blank, SQL is set to auto-increment.<br />
 * Newly created questions will have a starting ID of 1001.</p>
@@ -145,7 +150,7 @@ Question ID - Leave blank, SQL is set to auto-increment.<br />
   - Microsoft also offers training (MOC).  You can choose Instructor led, or self-paced.  Here is the free courseware you will need.
 </p>
 * MS Exam Experience
-  - Ever take a MS exam? Or maybe it's been a long time since you did take a MS exam, here is the opportunity to sit in a mock exam so you will not be surprised during the real exam
+  - Ever take a Microsoft exam? Or maybe it's been a long time since you did take a MS exam, here is the opportunity to sit in a mock exam so you will not be surprised during the real exam
 </p>
 
 </div>

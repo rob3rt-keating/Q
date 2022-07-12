@@ -71,12 +71,13 @@
                 <li class="nav-item ms-3"> <a class="nav-link" href="/help">Help</a> </li>
 
             </ul>
+<!-- SEARCH-->
             <div class="container-fluid justify-content-end">
                 <form class="d-flex justify-content-end" action="/id" method="post">
                     <div class="col-xs-2">
-                    <input class=" form-control me-2 " type="search" placeholder="Question ID" aria-label="Search" name="idx" style="width=50px;">
+                    <input class="form-control me-2" required type="search" placeholder="Question ID" aria-label="Search" id="s_text" name="idx" style="width=50px;">
                     </div>
-                    <button class="btn btn-outline-success ml-sm-2" type="submit">Search</button>
+                    <button class="btn btn-outline-success ml-sm-2" type="submit" id="s_button">Search</button>
                 </form>
             </div>
 
@@ -86,6 +87,7 @@
 
     {% block content %}
     {% endblock %}
+
 
 
     {% block scripts %}

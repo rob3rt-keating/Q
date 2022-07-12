@@ -1,6 +1,6 @@
 
 ## Donation
-> If you think that any information you obtained here is worth of some money and are willing to pay for it, feel free to send any amount through paypal.
+> If you feel this application will help you on your learning path, feel free to send any amount through paypal.
 
 <table>
 <th>Paypal</th>
@@ -113,7 +113,7 @@ From the [TOOLS] menu, select [EDITOR].
 
 This page is used for both editing existing questions and adding new ones.
 
-TO EDIT: Enter the Question ID and click [Search]
+TO EDIT: Enter the Question ID and click [Search], NOT Titlebar
 
 To CREATE:
 Question ID - Leave blank, SQL is set to auto-increment.  

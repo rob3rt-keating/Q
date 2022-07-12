@@ -1,9 +1,59 @@
 
 import json
+import sqlite3
+import random
 from typing import Optional, Dict
 from fastapi import Form
 from pydantic import validator, BaseModel
 from pydantic.dataclasses import dataclass
+from pathlib import Path
+
+BASE_PATH = Path(__file__).resolve().parent
+
+
+class Bank:
+    """ Queue for cycling through questions"""
+
+    scores = {}
+
+    def __init__(self, ids=None, cmd=''):
+        self._ids = ids
+        self._cmd = cmd
+
+    def get_db_ids(self, cmd, shuffle, limit):
+        conn = sqlite3.connect(f'{BASE_PATH}/questions.db')
+        cursor = conn.execute(cmd)
+        self._ids = [idx[0] for idx in cursor]
+
+        if shuffle is True:
+            random.shuffle(self._ids)
+
+        if limit:
+            self._ids = self._ids[:int(limit)]
+
+    def list_ids(self):
+        return self._ids
+
+    def remove_id(self, value):
+        self._ids.remove(value)
+
+    def get_next(self):
+        if len(self._ids) == 0:
+            return 0
+        val = self._ids[0]
+        self.remove_id(val)
+        return val
+
+    def add_score(self, value):
+        self.scores = self.scores | value
+
+    def get_scores(self):
+        return self.scores
+
+    def reset(self):
+        self._ids = ''
+        self._cmd = ''
+        self.scores = {}
 
 
 @dataclass

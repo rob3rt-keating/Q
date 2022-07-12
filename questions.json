@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "q": "Select TRUE statements",
+        "q": "Select all TRUE statements",
         "options": {
             "A PaaS solution that hosts web apps in Azure provides FULL CONTROL of the OS that hosts applications": null,
             "A PaaS solution thats hosts web apps in Azure provides the ability to SCALE the platform automatically": true,
@@ -426,7 +426,7 @@
     },
     {
         "id": 24,
-        "q": "Select all that are True.  Your company has an on-premises network that contains multiple servers.\nThe company plans to reduce the following administrative responsibilities of network administrators:\n\n\u2711 Backing up application data\n\u2711 Replacing failed server hardware\n\u2711 Managing physical server security\n\u2711 Updating server operating systems\n\u2711 Managing permissions to shared documents\n\nThe company plans to migrate several servers to Azure virtual machines.\nYou need to identify which administrative responsibilities will be eliminated after the planned migration.\n\nWhich two responsibilities should you identify?",
+        "q": "Select all True statements.  Your company has an on-premises network that contains multiple servers.\nThe company plans to reduce the following administrative responsibilities of network administrators:\n\n\u2711 Backing up application data\n\u2711 Replacing failed server hardware\n\u2711 Managing physical server security\n\u2711 Updating server operating systems\n\u2711 Managing permissions to shared documents\n\nThe company plans to migrate several servers to Azure virtual machines.\nYou need to identify which administrative responsibilities will be eliminated after the planned migration.\n\nWhich two responsibilities should you identify?",
         "options": {
             "Replacing failed server hardware": true,
             "Backing up application data": null,
@@ -439,14 +439,14 @@
         "notes": null,
         "history": null,
         "category": "concepts",
-        "q_type": "basic",
+        "q_type": "multi",
         "misc": null,
         "timestamp": "2022-07-08 10:18:40",
         "__initialised__": true
     },
     {
         "id": 25,
-        "q": "Select all TRUE answers",
+        "q": "Select all True statements",
         "options": {
             "Azure Pay-as-you-Go pricing is an example of CapEX": null,
             "Paying electricity for your datacenter is an example of OpEx": true,
@@ -457,7 +457,7 @@
         "notes": null,
         "history": null,
         "category": "concepts",
-        "q_type": "basic",
+        "q_type": "multi",
         "misc": null,
         "timestamp": "2022-07-08 10:18:40",
         "__initialised__": true
@@ -794,7 +794,7 @@
     },
     {
         "id": 44,
-        "q": "One of the benefits of Azure SQL Data Warehouse is that high availability is built into the platform.\nInstructions: Review the underlined text. If it makes the statement correct, select \u05d2\u20acNo change is needed. If the statement is incorrect, select the answer choice that makes the statement correct.",
+        "q": "One of the benefits of Azure SQL Data Warehouse is that high availability is built into the platform.",
         "options": {
             "No change is needed": true,
             "automatic scaling": null,
@@ -1637,7 +1637,7 @@
         "id": 89,
         "q": "Select all True statements.  A support engineer plans to perform several Azure management tasks by using the Azure CLI.\nYou install the CLI on a computer.\nYou need to tell the support engineer which tools to use to run the CLI.\nWhich two tools should you instruct the support engineer to use?",
         "options": {
-            "Command Prompt": null,
+            "Command Prompt": true,
             "Azure Resource Explorer": null,
             "Windows PowerShell": true,
             "Windows Defender Firewall": null,
@@ -1836,7 +1836,7 @@
         "id": 100,
         "q": "Select all True statements",
         "options": {
-            "From Azure Service Health, an administrator can view the health of all the services inan Azure Environment": true,
+            "From Azure Service Health, an administrator can view the health of all the services in an Azure Environment": true,
             "From Azure Service Health, an administrator can create a rule to be alerted if an Azure service fails": true,
             "From Azure Service Health, an administrator can prevent a service failure": null
         },
@@ -2108,7 +2108,7 @@
         "notes": null,
         "history": null,
         "category": "core",
-        "q_type": "basic",
+        "q_type": "multi",
         "misc": null,
         "timestamp": "2022-07-08 10:18:41",
         "__initialised__": true

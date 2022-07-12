@@ -44,7 +44,9 @@
                 <div class="card-body">
                     <h5 class="card-title display-6" align="center">Practice Results</h5>
                     <p class="card-text" align="center">
-                    {% set score = (final.correct / final.tot) | round(2) * 100 %}
+                    {% set calc = (final.correct / final.tot) * 100 | int %}
+                    {% set score = calc|round %}
+
                     {% if score >= 70 %}
                         <h1 align="center" class="green">{{ score }}</h1>
                     {% else %}
