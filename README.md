@@ -19,7 +19,7 @@
 
 # Q 
 
-Q is a Python web application designed to help you practice for the AZ-900 exam.@Spider1
+Q is a Python web application designed to help you practice for the AZ-900 exam.
 
 
 ### Features
@@ -35,7 +35,6 @@ Q is a Python web application designed to help you practice for the AZ-900 exam.
 
 <br>
 
-Q is a Python web application designed to help you practice for the AZ-900 exam.@Spider1
 
 
 ## Installation
