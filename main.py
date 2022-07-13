@@ -204,7 +204,7 @@ async def grade_it(request: Request, idx: str = Form(None), chk: List = Form(Non
                 add_history(idx, status)
                 bank.add_score({str(idx): status})
 
-    # | View button pressed
+    # | Next button pressed
     if not submit_view:
 
         # | NEXT question
@@ -330,6 +330,9 @@ async def start_quiz(request: Request, limit: str = Form(None), shuffle: bool = 
     if 'custom' in cat_lst:
         cmd = f'Select * from tbl_questions where id > 1000'
 
+    if 'brain' in cat_lst:
+        cmd = f'Select * from tbl_questions where id >= 500 and id < 600'
+
     bank.get_db_ids(cmd, shuffle, limit)
 
     nxt = bank.get_next()
@@ -443,22 +446,6 @@ def restore_db(request: Request):
 def editor_home(request: Request):
     """ Edit landing page"""
 
-    # fields = ['idx',
-    #           'q_type',
-    #           'q',
-    #           'options1',
-    #           'options2',
-    #           'options3',
-    #           'options4',
-    #           'options5',
-    #           'explain',
-    #           'explain_url',
-    #           'notes',
-    #           'history',
-    #           'misc',
-    #           'category']
-
-    # return TEMPLATES.TemplateResponse("editor.html", {"request": request, 'fields': fields})
     return TEMPLATES.TemplateResponse("editor.html", {"request": request})
 
 
